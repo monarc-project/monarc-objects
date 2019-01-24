@@ -1,0 +1,58 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "title": "Validator for referentials used in MONARC",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+        "uniqid": {
+            "type": "string"
+        },
+        "label": {
+            "type": "string"
+        },
+        "version": {
+            "type": "integer"
+        },
+        "label": {
+            "type": "string"
+        },
+        "authors": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+                "type": "string"
+            }
+        },
+        "measures": {
+            "type": "array",
+            "uniqueItems": true,
+            "type": "object",
+            "properties": {
+                "uniqid": {
+                    "type": "string"
+                },
+                "label": {
+                    "type": "string"
+                },
+                "category": {
+                    "type": "string"
+                },
+                "code": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "uniqid",
+                "label",
+                "category",
+                "code"
+            ]
+        }
+    },
+    "required": [
+        "uniqid",
+        "label",
+        "version",
+        "measures"
+    ]
+}
