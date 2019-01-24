@@ -24,7 +24,6 @@
             }
         },
         "measures": {
-            "type": "array",
             "uniqueItems": true,
             "type": "object",
             "properties": {
