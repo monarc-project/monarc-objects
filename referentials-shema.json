@@ -12,7 +12,7 @@
             "type": "string"
         },
         "version": {
-            "type": "integer"
+            "type": "string"
         },
         "label": {
             "type": "string"
@@ -26,20 +26,23 @@
         },
         "measures": {
             "uniqueItems": true,
-            "type": "object",
-            "properties": {
-                "uniqid": {
-                    "type": "string",
-                    "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
-                },
-                "label": {
-                    "type": "string"
-                },
-                "category": {
-                    "type": "string"
-                },
-                "code": {
-                    "type": "string"
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "uniqid": {
+                        "type": "string",
+                        "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+                    },
+                    "label": {
+                        "type": "string"
+                    },
+                    "category": {
+                        "type": "string"
+                    },
+                    "code": {
+                        "type": "string"
+                    }
                 }
             },
             "required": [
@@ -48,6 +51,13 @@
                 "category",
                 "code"
             ]
+        },
+        "authors": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+                "type": "string"
+            }
         }
     },
     "required": [
