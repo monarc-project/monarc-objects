@@ -1,0 +1,82 @@
+{
+    "authors": [
+        "The MONARC project"
+    ],
+    "label": "NIST Core",
+    "measures": [
+        {
+            "category": "Asset Management (ID.AM)",
+            "code": "1_ID.AM-1",
+            "label": "Physical devices and systems within the organization are inventoried",
+            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac94"
+        },
+        {
+            "category": "Asset Management (ID.AM)",
+            "code": "1_ID.AM-2",
+            "label": "Software platforms and applications within the organization are inventoried",
+            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac95"
+        },
+        {
+            "category": "Asset Management (ID.AM)",
+            "code": "1_ID.AM-3",
+            "label": "Organizational communication and data flows are mapped",
+            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac94"
+        },
+        {
+            "category": "Asset Management (ID.AM)",
+            "code": "1_ID.AM-4",
+            "label": "External information systems are catalogued",
+            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac92"
+        },
+        {
+            "category": "Asset Management (ID.AM)",
+            "code": "1_ID.AM-5",
+            "label": "Resources (e.g., hardware, devices, data, and software) are prioritized based on their classification, criticality, and business value",
+            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac93"
+        },
+        {
+            "category": "Asset Management (ID.AM)",
+            "code": "1_ID.AM-6",
+            "label": "Cybersecurity roles and responsibilities for the entire workforce and third-party stakeholders (e.g., suppliers, customers, partners) are established",
+            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac91"
+        },
+        {
+            "category": "Business Environment (ID.BE)",
+            "code": "1_ID.BE-1",
+            "label": "The organization\u2019s role in the supply chain is identified and communicated",
+            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac90"
+        },
+        {
+            "category": "Business Environment (ID.BE)",
+            "code": "1_ID.BE-2",
+            "label": "The organization\u2019s place in critical infrastructure and its industry sector is identified and communicated",
+            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac89"
+        },
+        {
+            "category": "Business Environment (ID.BE)",
+            "code": "1_ID.BE-3",
+            "label": "Priorities for organizational mission, objectives, and activities are established and communicated",
+            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac88"
+        },
+        {
+            "category": "Business Environment (ID.BE)",
+            "code": "1_ID.BE-4",
+            "label": "Dependencies and critical functions for delivery of critical services are established",
+            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac87"
+        },
+        {
+            "category": "Business Environment (ID.BE)",
+            "code": "1_ID.BE-5",
+            "label": "Resilience requirements to support delivery of critical services are established",
+            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac86"
+        },
+        {
+            "category": "Governance (ID.GV)",
+            "code": "1_ID.GV-1",
+            "label": "Organizational information security policy is established",
+            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac87"
+        }
+    ],
+    "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac94",
+    "version": "1.0"
+}
