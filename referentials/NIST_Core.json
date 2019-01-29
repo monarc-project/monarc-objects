@@ -8,73 +8,589 @@
             "category": "Asset Management (ID.AM)",
             "code": "1_ID.AM-1",
             "label": "Physical devices and systems within the organization are inventoried",
-            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac94"
+            "uniqid": "231fc2b1-80c2-450e-9d80-f804f5a8984c"
         },
         {
             "category": "Asset Management (ID.AM)",
             "code": "1_ID.AM-2",
             "label": "Software platforms and applications within the organization are inventoried",
-            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac95"
+            "uniqid": "f4f7466f-0ae6-4867-a2ee-6be4e1f02329"
         },
         {
             "category": "Asset Management (ID.AM)",
             "code": "1_ID.AM-3",
             "label": "Organizational communication and data flows are mapped",
-            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac94"
+            "uniqid": "b0cebf68-a023-40af-ba24-e59bd4a45c90"
         },
         {
             "category": "Asset Management (ID.AM)",
             "code": "1_ID.AM-4",
             "label": "External information systems are catalogued",
-            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac92"
+            "uniqid": "57e92f7c-f5ed-4611-a1be-d7f4e1456f9c"
         },
         {
             "category": "Asset Management (ID.AM)",
             "code": "1_ID.AM-5",
             "label": "Resources (e.g., hardware, devices, data, and software) are prioritized based on their classification, criticality, and business value",
-            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac93"
+            "uniqid": "50fc2488-b730-48ae-abf8-93e60f141404"
         },
         {
             "category": "Asset Management (ID.AM)",
             "code": "1_ID.AM-6",
             "label": "Cybersecurity roles and responsibilities for the entire workforce and third-party stakeholders (e.g., suppliers, customers, partners) are established",
-            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac91"
+            "uniqid": "766520fa-3439-4382-babc-eb7d9d6b1f52"
         },
         {
             "category": "Business Environment (ID.BE)",
             "code": "1_ID.BE-1",
             "label": "The organization\u2019s role in the supply chain is identified and communicated",
-            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac90"
+            "uniqid": "46555297-7af1-4d59-ac07-6e627aef4dda"
         },
         {
             "category": "Business Environment (ID.BE)",
             "code": "1_ID.BE-2",
             "label": "The organization\u2019s place in critical infrastructure and its industry sector is identified and communicated",
-            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac89"
+            "uniqid": "63f9f527-2c63-4fda-acda-7ebcf3025873"
         },
         {
             "category": "Business Environment (ID.BE)",
             "code": "1_ID.BE-3",
             "label": "Priorities for organizational mission, objectives, and activities are established and communicated",
-            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac88"
+            "uniqid": "1a422e41-50fc-4c74-b1e4-e3d40b7c82f3"
         },
         {
             "category": "Business Environment (ID.BE)",
             "code": "1_ID.BE-4",
             "label": "Dependencies and critical functions for delivery of critical services are established",
-            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac87"
+            "uniqid": "eaa4fb9d-e687-41a0-8d4b-1ca972bed10a"
         },
         {
             "category": "Business Environment (ID.BE)",
             "code": "1_ID.BE-5",
             "label": "Resilience requirements to support delivery of critical services are established",
-            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac86"
+            "uniqid": "75942c69-3336-4e82-bf59-515aaa6e3513"
         },
         {
             "category": "Governance (ID.GV)",
             "code": "1_ID.GV-1",
             "label": "Organizational information security policy is established",
-            "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac87"
+            "uniqid": "7a4074cc-5b40-486a-9a52-6b49be7f95e6"
+        },
+        {
+            "category": "Governance (ID.GV)",
+            "code": "1_ID.GV-2",
+            "label": "Information security roles & responsibilities are coordinated and aligned with internal roles and external partners",
+            "uniqid": "29613b2e-8def-417e-85fa-31aa5ef5de3b"
+        },
+        {
+            "category": "Governance (ID.GV)",
+            "code": "1_ID.GV-3",
+            "label": "Legal and regulatory requirements regarding cybersecurity, including privacy and civil liberties obligations, are understood and managed",
+            "uniqid": "4e2499c0-d23d-4977-9e9f-6323af31be24"
+        },
+        {
+            "category": "Governance (ID.GV)",
+            "code": "1_ID.GV-4",
+            "label": "Governance and risk management processes address cybersecurity risks",
+            "uniqid": "d2e86e2d-5bec-42a2-b642-69995b6abcf0"
+        },
+        {
+            "category": "Risk Assessment (ID.RA)",
+            "code": "1_ID.RA-1",
+            "label": "Asset vulnerabilities are identified and documented",
+            "uniqid": "cc6aad46-1887-4da6-93e3-c707be07b9f5"
+        },
+        {
+            "category": "Risk Assessment (ID.RA)",
+            "code": "1_ID.RA-2",
+            "label": "Threat and vulnerability information is received from information sharing forums and sources",
+            "uniqid": "0550c268-534a-4311-920d-84466e4865c4"
+        },
+        {
+            "category": "Risk Assessment (ID.RA)",
+            "code": "1_ID.RA-3",
+            "label": "Threats, both internal and external, are identified and documented",
+            "uniqid": "1bad7834-b740-48ff-8450-5792b55614db"
+        },
+        {
+            "category": "Risk Assessment (ID.RA)",
+            "code": "1_ID.RA-4",
+            "label": "Potential business impacts and likelihoods are identified",
+            "uniqid": "7c09a9bf-407c-4509-94c0-af8314fc3b86"
+        },
+        {
+            "category": "Risk Assessment (ID.RA)",
+            "code": "1_ID.RA-5",
+            "label": "Threats, vulnerabilities, likelihoods, and impacts are used to determine risk",
+            "uniqid": "6d0bfd47-88dc-484a-aed8-196eaa12c4db"
+        },
+        {
+            "category": "Risk Assessment (ID.RA)",
+            "code": "1_ID.RA-6",
+            "label": "Risk responses are identified and prioritized",
+            "uniqid": "98ce2a28-d424-4436-8c41-2ec0e8d563fa"
+        },
+        {
+            "category": "Risk Management Strategy (ID.RM)",
+            "code": "1_ID.RM-1",
+            "label": "Risk management processes are established, managed, and agreed to by organizational stakeholders",
+            "uniqid": "e384f897-1b70-49a5-8491-24c035e1451f"
+        },
+        {
+            "category": "Risk Management Strategy (ID.RM)",
+            "code": "1_ID.RM-2",
+            "label": "Organizational risk tolerance is determined and clearly expressed",
+            "uniqid": "7a9f7d35-6714-4182-ae88-d9ff575224a6"
+        },
+        {
+            "category": "Risk Management Strategy (ID.RM)",
+            "code": "1_ID.RM-3",
+            "label": "The organization\u2019s determination of risk tolerance is informed by its role in critical infrastructure and sector specific risk analysis",
+            "uniqid": "97331ab3-3365-4fb0-894c-578c460720fa"
+        },
+        {
+            "category": "Access Control (PR.AC)",
+            "code": "2_PR.AC-1",
+            "label": "Identities and credentials are managed\u00a0for authorized devices and users",
+            "uniqid": "a6b301ed-e0c1-467d-8e42-e2796c64b785"
+        },
+        {
+            "category": "Access Control (PR.AC)",
+            "code": "2_PR.AC-2",
+            "label": "Physical access to assets is managed and protected",
+            "uniqid": "382fe4f1-9f05-4169-a343-2c961a8cf359"
+        },
+        {
+            "category": "Access Control (PR.AC)",
+            "code": "2_PR.AC-3",
+            "label": "Remote access is managed",
+            "uniqid": "7ec8092e-3e41-43e0-a8b2-c42b980dd29b"
+        },
+        {
+            "category": "Access Control (PR.AC)",
+            "code": "2_PR.AC-4",
+            "label": "Access permissions are managed, incorporating the principles of least privilege and separation of duties",
+            "uniqid": "8feec5e9-c2b2-465b-8fa3-8b65b6a09fcb"
+        },
+        {
+            "category": "Access Control (PR.AC)",
+            "code": "2_PR.AC-5",
+            "label": "Network integrity is protected, incorporating network segregation where appropriate",
+            "uniqid": "800fc6f9-e574-4152-89e6-30bae7da4adc"
+        },
+        {
+            "category": "Awareness and Training (PR.AT)",
+            "code": "2_PR.AT-1",
+            "label": "All users are informed and trained",
+            "uniqid": "01d259f0-ece0-4f7c-91bf-d09844c576cc"
+        },
+        {
+            "category": "Awareness and Training (PR.AT)",
+            "code": "2_PR.AT-2",
+            "label": "Privileged users understand roles & responsibilities",
+            "uniqid": "6386d5df-56f8-46ad-b181-e870491004a5"
+        },
+        {
+            "category": "Awareness and Training (PR.AT)",
+            "code": "2_PR.AT-3",
+            "label": "Third-party stakeholders (e.g., suppliers, customers, partners) understand roles & responsibilities",
+            "uniqid": "4879e4fb-cd0e-4968-8dd2-4b6dbe977cdc"
+        },
+        {
+            "category": "Awareness and Training (PR.AT)",
+            "code": "2_PR.AT-4",
+            "label": "Senior executives understand roles & responsibilities",
+            "uniqid": "987e9304-80fd-4470-b8b4-213f41a0a957"
+        },
+        {
+            "category": "Awareness and Training (PR.AT)",
+            "code": "2_PR.AT-5",
+            "label": "Physical and information security personnel understand roles & responsibilities",
+            "uniqid": "92a81683-1877-48d3-9d5a-c7c0ddd9852b"
+        },
+        {
+            "category": "Data Security (PR.DS)",
+            "code": "2_PR.DS-1",
+            "label": "Data-at-rest is protected",
+            "uniqid": "d798a390-f23a-4bbc-abe5-588ab58811c6"
+        },
+        {
+            "category": "Data Security (PR.DS)",
+            "code": "2_PR.DS-2",
+            "label": "Data-in-transit is protected",
+            "uniqid": "38022045-6812-4623-8409-7a9d6b3f7ce8"
+        },
+        {
+            "category": "Data Security (PR.DS)",
+            "code": "2_PR.DS-3",
+            "label": "Assets are formally managed throughout removal, transfers, and disposition",
+            "uniqid": "acfea27c-c6d5-421a-9ae4-2db82610cc41"
+        },
+        {
+            "category": "Data Security (PR.DS)",
+            "code": "2_PR.DS-4",
+            "label": "Adequate capacity to ensure availability is maintained",
+            "uniqid": "e4380999-3c82-4b85-86cd-86f1f37f97ab"
+        },
+        {
+            "category": "Data Security (PR.DS)",
+            "code": "2_PR.DS-5",
+            "label": "Protections against data leaks are implemented",
+            "uniqid": "e760c443-e572-43cb-bf5b-8aeb3b42ef65"
+        },
+        {
+            "category": "Data Security (PR.DS)",
+            "code": "2_PR.DS-6",
+            "label": "Integrity checking mechanisms are used to verify software, firmware, and information integrity",
+            "uniqid": "e5b116b5-b806-4863-92ba-d8c2f477813b"
+        },
+        {
+            "category": "Data Security (PR.DS)",
+            "code": "2_PR.DS-7",
+            "label": "The development and testing environment(s) are separate from the production environment",
+            "uniqid": "6604ef4c-a1d7-43d2-90e4-d2b8d97d880f"
+        },
+        {
+            "category": "Information Protection Processes and Procedures (PR.IP)",
+            "code": "2_PR.IP-1",
+            "label": "A baseline configuration of information technology/industrial control systems is created and maintained",
+            "uniqid": "30a7a092-3e00-4d33-aec2-66d019c2ff03"
+        },
+        {
+            "category": "Information Protection Processes and Procedures (PR.IP)",
+            "code": "2_PR.IP-2",
+            "label": "A System Development Life Cycle to manage systems is implemented",
+            "uniqid": "7cd438b8-038b-4f1f-a431-a1a1a83e009c"
+        },
+        {
+            "category": "Information Protection Processes and Procedures (PR.IP)",
+            "code": "2_PR.IP-3",
+            "label": "Configuration change control processes are in place",
+            "uniqid": "6f6442e8-952b-4a13-9e97-7c233a7b2a1c"
+        },
+        {
+            "category": "Information Protection Processes and Procedures (PR.IP)",
+            "code": "2_PR.IP-4",
+            "label": "Backups of information are conducted, maintained, and tested periodically",
+            "uniqid": "2e411d93-1836-4dbc-baf1-a747d2a9915a"
+        },
+        {
+            "category": "Information Protection Processes and Procedures (PR.IP)",
+            "code": "2_PR.IP-5",
+            "label": "Policy and regulations regarding the physical operating environment for organizational assets are met",
+            "uniqid": "f01b50b8-0e54-4f8f-afee-0ec56f788a42"
+        },
+        {
+            "category": "Information Protection Processes and Procedures (PR.IP)",
+            "code": "2_PR.IP-6",
+            "label": "Data is destroyed according to policy",
+            "uniqid": "0fd12bc3-c80d-4baa-bc1b-a7fbfb152f86"
+        },
+        {
+            "category": "Information Protection Processes and Procedures (PR.IP)",
+            "code": "2_PR.IP-7",
+            "label": "Protection processes are continuously improved",
+            "uniqid": "bb1c6655-a3fc-4d43-8e1b-50f5e418c1aa"
+        },
+        {
+            "category": "Information Protection Processes and Procedures (PR.IP)",
+            "code": "2_PR.IP-8",
+            "label": "Effectiveness of protection technologies is shared with appropriate parties",
+            "uniqid": "ac4be007-d8cb-4da5-9a84-118c2841a6f5"
+        },
+        {
+            "category": "Information Protection Processes and Procedures (PR.IP)",
+            "code": "2_PR.IP-9",
+            "label": "Response plans (Incident Response and Business Continuity) and recovery plans (Incident Recovery and Disaster Recovery) are in place and managed",
+            "uniqid": "4fe097cd-e0c0-4698-a209-43ffb553a279"
+        },
+        {
+            "category": "Information Protection Processes and Procedures (PR.IP)",
+            "code": "2_PR.IP-10",
+            "label": "Response and recovery plans are tested",
+            "uniqid": "e4f85702-5874-4361-beec-45d00b379c5b"
+        },
+        {
+            "category": "Information Protection Processes and Procedures (PR.IP)",
+            "code": "2_PR.IP-11",
+            "label": "Cybersecurity is included in human resources practices (e.g., deprovisioning, personnel screening)",
+            "uniqid": "4279b240-b560-4632-a557-9af1322930fd"
+        },
+        {
+            "category": "Information Protection Processes and Procedures (PR.IP)",
+            "code": "2_PR.IP-12",
+            "label": "A vulnerability management plan is developed and implemented",
+            "uniqid": "48d2b0ff-ebc0-445b-8f20-3ae47d43242c"
+        },
+        {
+            "category": "Maintenance (PR.MA)",
+            "code": "2_PR.MA-1",
+            "label": "Maintenance and repair of organizational assets is performed and logged in a timely manner, with approved and controlled tools",
+            "uniqid": "6da92eea-2f74-458f-a643-361df7ea9f2f"
+        },
+        {
+            "category": "Maintenance (PR.MA)",
+            "code": "2_PR.MA-2",
+            "label": "Remote maintenance of organizational assets is approved, logged, and performed in a manner that prevents unauthorized access",
+            "uniqid": "831f20de-eadb-44a7-82f3-fcb116d8cb69"
+        },
+        {
+            "category": "Protective Technology (PR.PT)",
+            "code": "2_PR.PT-1",
+            "label": "Audit/log records are determined, documented, implemented, and reviewed in accordance with policy",
+            "uniqid": "3dcdd5d1-48e8-4b66-8567-65e0f0c8be4a"
+        },
+        {
+            "category": "Protective Technology (PR.PT)",
+            "code": "2_PR.PT-2",
+            "label": "Removable media is protected and its use restricted according to policy",
+            "uniqid": "0f278ef8-3a97-4e0e-bc30-66d530bdea47"
+        },
+        {
+            "category": "Protective Technology (PR.PT)",
+            "code": "2_PR.PT-3",
+            "label": "Access to systems and assets is controlled, incorporating the principle of least functionality",
+            "uniqid": "02cc6244-c9d8-4db1-aeb3-a05933207c9d"
+        },
+        {
+            "category": "Protective Technology (PR.PT)",
+            "code": "2_PR.PT-4",
+            "label": "Communications and control networks are protected",
+            "uniqid": "6b2a7cc7-c35a-4020-92d8-5935e1229676"
+        },
+        {
+            "category": "Anomalies and Events (DE.AE)",
+            "code": "3_DE.AE-1",
+            "label": "A baseline of network operations and expected data flows for users and systems is established and managed",
+            "uniqid": "24ac8920-3747-45bb-b9d1-1ca0d1d84d3f"
+        },
+        {
+            "category": "Anomalies and Events (DE.AE)",
+            "code": "3_DE.AE-2",
+            "label": "Detected events are analyzed to understand attack targets and methods",
+            "uniqid": "69f50c12-9eab-4305-be4f-97a2002ccc0c"
+        },
+        {
+            "category": "Anomalies and Events (DE.AE)",
+            "code": "3_DE.AE-3",
+            "label": "Event data are aggregated and correlated from multiple sources and sensors",
+            "uniqid": "31dc508e-664e-4173-8757-00ec985115c8"
+        },
+        {
+            "category": "Anomalies and Events (DE.AE)",
+            "code": "3_DE.AE-4",
+            "label": "Impact of events is determined",
+            "uniqid": "3f6e72ed-2984-452d-badd-5563acbf0450"
+        },
+        {
+            "category": "Anomalies and Events (DE.AE)",
+            "code": "3_DE.AE-5",
+            "label": "Incident alert thresholds are established",
+            "uniqid": "52d551ef-7334-45a3-9dd7-0b8d239ba1f6"
+        },
+        {
+            "category": "Security Continuous Monitoring (DE.CM)",
+            "code": "3_DE.CM-1",
+            "label": "The network is monitored to detect potential cybersecurity events",
+            "uniqid": "9b355a55-73ce-4d55-8016-d93e3c555a55"
+        },
+        {
+            "category": "Security Continuous Monitoring (DE.CM)",
+            "code": "3_DE.CM-2",
+            "label": "The physical environment is monitored to detect potential cybersecurity events",
+            "uniqid": "dec6cf8c-1714-45f4-bfd2-23a049fb9b35"
+        },
+        {
+            "category": "Security Continuous Monitoring (DE.CM)",
+            "code": "3_DE.CM-3",
+            "label": "Personnel activity is monitored to detect potential cybersecurity events",
+            "uniqid": "a8f83595-0327-4e24-9557-0e8d9b82856f"
+        },
+        {
+            "category": "Security Continuous Monitoring (DE.CM)",
+            "code": "3_DE.CM-4",
+            "label": "Malicious code is detected",
+            "uniqid": "70e202bf-2270-4daf-8fb5-4f6fb10de979"
+        },
+        {
+            "category": "Security Continuous Monitoring (DE.CM)",
+            "code": "3_DE.CM-5",
+            "label": "Unauthorized mobile code is detected",
+            "uniqid": "54eeaae4-2b82-43ce-9a61-40d453116d8d"
+        },
+        {
+            "category": "Security Continuous Monitoring (DE.CM)",
+            "code": "3_DE.CM-6",
+            "label": "External service provider activity is monitored to detect potential cybersecurity events",
+            "uniqid": "bbb99e89-ee33-46fc-bc03-1582631210c4"
+        },
+        {
+            "category": "Security Continuous Monitoring (DE.CM)",
+            "code": "3_DE.CM-7",
+            "label": "Monitoring for unauthorized personnel, connections, devices, and software is performed",
+            "uniqid": "e4f36efd-2e64-4ee8-9fd1-af2bec0b68d0"
+        },
+        {
+            "category": "Security Continuous Monitoring (DE.CM)",
+            "code": "3_DE.CM-8",
+            "label": "Vulnerability scans are performed",
+            "uniqid": "ebc0b0f8-4403-481f-be4a-7f35ae3cb6be"
+        },
+        {
+            "category": "Detection Processes (DE.DP)",
+            "code": "3_DE.DP-1",
+            "label": "Roles and responsibilities for detection are well defined to ensure accountability",
+            "uniqid": "48a13f85-a811-43fa-a0e8-89f67fb2743f"
+        },
+        {
+            "category": "Detection Processes (DE.DP)",
+            "code": "3_DE.DP-2",
+            "label": "Detection activities comply with all applicable requirements",
+            "uniqid": "f9d1a926-5d39-4123-8b83-a94c21ff18e5"
+        },
+        {
+            "category": "Detection Processes (DE.DP)",
+            "code": "3_DE.DP-3",
+            "label": "Detection processes are tested",
+            "uniqid": "23e4c883-c358-4b64-8d7e-249c67b7f1f2"
+        },
+        {
+            "category": "Detection Processes (DE.DP)",
+            "code": "3_DE.DP-4",
+            "label": "Event detection information is communicated to appropriate parties",
+            "uniqid": "025611cb-8431-4a9c-a88c-039141472418"
+        },
+        {
+            "category": "Detection Processes (DE.DP)",
+            "code": "3_DE.DP-5",
+            "label": "Detection processes are continuously improved",
+            "uniqid": "ad0458f2-c836-4c7d-9d8f-6333fc6af2e9"
+        },
+        {
+            "category": "Response Planning (RS.RP)",
+            "code": "4_RS.RP-1",
+            "label": "Response plan is executed during or after an event",
+            "uniqid": "b237b4b1-a21a-4122-b4c8-e068ad58ef21"
+        },
+        {
+            "category": "Communications (RS.CO)",
+            "code": "4_RS.CO-1",
+            "label": "Personnel know their roles and order of operations when a response is needed",
+            "uniqid": "cce52cf2-aa85-4f33-8cb8-b0508f452c25"
+        },
+        {
+            "category": "Communications (RS.CO)",
+            "code": "4_RS.CO-2",
+            "label": "Events are reported consistent with established criteria",
+            "uniqid": "30ff804b-d8e2-44da-a49e-bb1a39e5f81a"
+        },
+        {
+            "category": "Communications (RS.CO)",
+            "code": "4_RS.CO-3",
+            "label": "Information is shared consistent with response plans",
+            "uniqid": "2d88bd60-ff72-40cc-a2b4-ae7c9cbd2a68"
+        },
+        {
+            "category": "Communications (RS.CO)",
+            "code": "4_RS.CO-4",
+            "label": "Coordination with stakeholders occurs consistent with response plans",
+            "uniqid": "34a2e449-b69d-4f75-a548-8c5faee598b5"
+        },
+        {
+            "category": "Communications (RS.CO)",
+            "code": "4_RS.CO-5",
+            "label": "Voluntary information sharing occurs with external stakeholders to achieve broader cybersecurity situational awareness",
+            "uniqid": "bb37f7e5-ff5d-4b9a-a621-dfb26f3fccaf"
+        },
+        {
+            "category": "Analysis (RS.AN)",
+            "code": "4_RS.AN-1",
+            "label": "Notifications from detection systems are investigated",
+            "uniqid": "e6ab0d96-2ced-445d-a19f-97710b2cc346"
+        },
+        {
+            "category": "Analysis (RS.AN)",
+            "code": "4_RS.AN-2",
+            "label": "The impact of the incident is understood",
+            "uniqid": "0c7c3558-9c78-4bcc-816b-9123c899b653"
+        },
+        {
+            "category": "Analysis (RS.AN)",
+            "code": "4_RS.AN-3",
+            "label": "Forensics are performed",
+            "uniqid": "cf3d3d41-f0d5-4eb9-b6c5-537d72ea645a"
+        },
+        {
+            "category": "Analysis (RS.AN)",
+            "code": "4_RS.AN-4",
+            "label": "Incidents are categorized consistent with response plans",
+            "uniqid": "1ea30a61-92f4-4ae0-a349-3f947bf0dc94"
+        },
+        {
+            "category": "Mitigation (RS.MI)",
+            "code": "4_RS.MI-1",
+            "label": "Incidents are contained",
+            "uniqid": "2736e702-38ef-439d-9e8b-989ef56f8735"
+        },
+        {
+            "category": "Mitigation (RS.MI)",
+            "code": "4_RS.MI-2",
+            "label": "Incidents are mitigated",
+            "uniqid": "e94941eb-31da-40e0-b944-07c43233e7c0"
+        },
+        {
+            "category": "Mitigation (RS.MI)",
+            "code": "4_RS.MI-3",
+            "label": "Newly identified vulnerabilities are mitigated or documented as accepted risks",
+            "uniqid": "0de24c0a-53cb-4481-9b8d-fccc252e4f03"
+        },
+        {
+            "category": "Improvements (RS.IM)",
+            "code": "4_RS.IM-1",
+            "label": "Response plans incorporate lessons learned",
+            "uniqid": "01314572-becc-4780-945f-9ed3a40af900"
+        },
+        {
+            "category": "Improvements (RS.IM)",
+            "code": "4_RS.IM-2",
+            "label": "Response strategies are updated",
+            "uniqid": "f0753789-bcc3-4f66-9bb5-b6179bb367de"
+        },
+        {
+            "category": "Recovery Planning (RC.RP)",
+            "code": "5_RC.RP-1",
+            "label": "Recovery plan is executed during or after an event",
+            "uniqid": "0d124100-372e-429b-9e2f-d12211f005e1"
+        },
+        {
+            "category": "Improvements (RC.IM)",
+            "code": "5_RC.IM-1",
+            "label": "Recovery plans incorporate lessons learned",
+            "uniqid": "52ab8937-c260-4cf3-a807-ce1381afa4c9"
+        },
+        {
+            "category": "Improvements (RC.IM)",
+            "code": "5_RC.IM-2",
+            "label": "Recovery strategies are updated",
+            "uniqid": "421b5608-0f1d-4de5-b646-ff9538f8493f"
+        },
+        {
+            "category": "Communications (RC.CO)",
+            "code": "5_RC.CO-1",
+            "label": "Public relations are managed",
+            "uniqid": "771e3059-9eb4-4313-94b4-f0e8fa102498"
+        },
+        {
+            "category": "Communications (RC.CO)",
+            "code": "5_RC.CO-2",
+            "label": "Reputation after an event is repaired",
+            "uniqid": "ecde2384-2cdb-46cc-9a15-37ea9ee175ee"
+        },
+        {
+            "category": "Communications (RC.CO)",
+            "code": "5_RC.CO-3",
+            "label": "Recovery activities are communicated to internal stakeholders and executive and management teams",
+            "uniqid": "c8de5e1f-7893-42b3-852d-fa4f79bc68fa"
         }
     ],
     "uniqid": "fcf78560-3d12-42ba-8f4a-5761ca02ac94",
