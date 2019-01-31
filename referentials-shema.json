@@ -4,7 +4,7 @@
     "type": "object",
     "additionalProperties": false,
     "properties": {
-        "uniqid": {
+        "uuid": {
             "type": "string",
             "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
         },
@@ -30,7 +30,7 @@
             "items": {
                 "type": "object",
                 "properties": {
-                    "uniqid": {
+                    "uuid": {
                         "type": "string",
                         "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
                     },
@@ -46,7 +46,7 @@
                 }
             },
             "required": [
-                "uniqid",
+                "uuid",
                 "label",
                 "category",
                 "code"
@@ -61,7 +61,7 @@
         }
     },
     "required": [
-        "uniqid",
+        "uuid",
         "label",
         "version",
         "measures"

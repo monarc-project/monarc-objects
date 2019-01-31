@@ -1,0 +1,15 @@
+language: python
+
+cache: pip
+
+python:
+    - "3.7"
+
+sudo: required
+
+install:
+    - pipenv install jsonschema
+
+script:
+    - ./validate_all.sh
+
