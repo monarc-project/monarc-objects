@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/monarc-project/monarc-objects.svg?branch=master)](https://travis-ci.org/monarc-project/monarc-objects)
+
 # MONARC objects
 
 Definition of objects used in MOMARC.  
