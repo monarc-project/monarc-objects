@@ -14,9 +14,6 @@
         "version": {
             "type": "string"
         },
-        "label": {
-            "type": "string"
-        },
         "authors": {
             "type": "array",
             "uniqueItems": true,
