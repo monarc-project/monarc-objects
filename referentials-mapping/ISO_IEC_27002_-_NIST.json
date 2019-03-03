@@ -1,9 +1,0 @@
-{
-    "label": "ISO/IEC 27002 - NIST",
-    "mapping": [
-        {
-            "child-uuid": "6386d5df-56f8-46ad-b181-e870491004a5",
-            "father-uuid": "267fc73c-f705-11e8-b555-0800279aaa2b"
-        }
-    ]
-}
