@@ -1,58 +1,58 @@
 {
-  "definitions": {},
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://example.com/root.json",
-  "type": "object",
-  "title": "The Root Schema",
-  "required": [
-    "label",
-    "mapping"
-  ],
-  "properties": {
-    "label": {
-      "type": "string",
-      "title": "The Label Schema",
-      "default": "",
-      "examples": [
-        "ISO / NIST"
-      ],
-      "pattern": "^(.*)$"
-    },
-    "mapping": {
-      "$id": "#/properties/mapping",
-      "type": "array",
-      "title": "The Mapping Schema",
-      "items": {
-        "$id": "#/properties/mapping/items",
-        "type": "object",
-        "title": "The Items Schema",
-        "required": [
-          "father-uuid",
-          "child-uuid"
-        ],
-        "properties": {
-          "father-uuid": {
-            "$id": "#/properties/mapping/items/properties/father-uuid",
-            "type": "string",
-            "title": "The Father-uuid Schema",
+    "$id": "http://example.com/root.json",
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "definitions": {},
+    "properties": {
+        "label": {
             "default": "",
             "examples": [
-              "UUID1"
+                "ISO / NIST"
             ],
-            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
-          },
-          "child-uuid": {
-            "$id": "#/properties/mapping/items/properties/child-uuid",
-            "type": "string",
-            "title": "The Child-uuid Schema",
-            "default": "",
-            "examples": [
-              "UUID2"
-            ],
-            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
-          }
+            "pattern": "^(.*)$",
+            "title": "The Label Schema",
+            "type": "string"
+        },
+        "measures": {
+            "$id": "#/properties/measures",
+            "items": {
+                "$id": "#/properties/measures/items",
+                "properties": {
+                    "control": {
+                        "$id": "#/properties/measures/items/properties/control",
+                        "default": "",
+                        "examples": [
+                            "UUID1"
+                        ],
+                        "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+                        "title": "The Control-uuid Schema",
+                        "type": "string"
+                    },
+                    "match": {
+                        "$id": "#/properties/measures/items/properties/match",
+                        "default": "",
+                        "examples": [
+                            "UUID2"
+                        ],
+                        "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+                        "title": "The Match-uuid Schema",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "control",
+                    "match"
+                ],
+                "title": "The Items Schema",
+                "type": "object"
+            },
+            "title": "The Mapping Schema",
+            "type": "array"
         }
-      }
-    }
-  }
+    },
+    "required": [
+        "label",
+        "measures"
+    ],
+    "title": "The Root Schema",
+    "type": "object"
 }
