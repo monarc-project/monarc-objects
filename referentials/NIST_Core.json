@@ -149,9 +149,39 @@
             "uuid": "97331ab3-3365-4fb0-894c-578c460720fa"
         },
         {
+            "category": "Supply Chain Risk Management (ID.SC)",
+            "code": "1_ID.SC-1",
+            "label": "Cyber supply chain risk management processes are identified, established, assessed, managed, and agreed to by organizational stakeholders",
+            "uuid": "03dee2e6-285f-44e4-acc5-2388f62584a5"
+        },
+        {
+            "category": "Supply Chain Risk Management (ID.SC)",
+            "code": "1_ID.SC-2",
+            "label": "Suppliers and third party partners of information systems, components, and services are identified, prioritized, and assessed using a cyber supply chain risk assessment process",
+            "uuid": "b9d19a14-74ab-46ae-8456-189d1a180dbf"
+        },
+        {
+            "category": "Supply Chain Risk Management (ID.SC)",
+            "code": "1_ID.SC-3",
+            "label": "Contracts with suppliers and third-party partners are used to implement appropriate measures designed to meet the objectives of an organization\u2019s cybersecurity program and Cyber Supply Chain Risk Management Plan.",
+            "uuid": "1e5aa8d3-b1e9-43e0-9e7e-54bdadac89ea"
+        },
+        {
+            "category": "Supply Chain Risk Management (ID.SC)",
+            "code": "1_ID.SC-4",
+            "label": "Suppliers and third-party partners are routinely assessed using audits, test results, or other forms of evaluations to confirm they are meeting their contractual obligations.",
+            "uuid": "f6d606f5-9a22-4a53-87c1-ebe36f4fe939"
+        },
+        {
+            "category": "Supply Chain Risk Management (ID.SC)",
+            "code": "1_ID.SC-5",
+            "label": "Response and recovery planning and testing are conducted with suppliers and third-party providers",
+            "uuid": "aa988775-7261-412e-bbee-bfd90db78a59"
+        },
+        {
             "category": "Access Control (PR.AC)",
             "code": "2_PR.AC-1",
-            "label": "Identities and credentials are managed\u00a0for authorized devices and users",
+            "label": "Identities and credentials are managed for authorized devices and users",
             "uuid": "a6b301ed-e0c1-467d-8e42-e2796c64b785"
         },
         {
@@ -177,6 +207,18 @@
             "code": "2_PR.AC-5",
             "label": "Network integrity is protected, incorporating network segregation where appropriate",
             "uuid": "800fc6f9-e574-4152-89e6-30bae7da4adc"
+        },
+        {
+            "category": "Access Control (PR.AC)",
+            "code": "2_PR.AC-6",
+            "label": "Identities are proofed and bound to credentials and asserted in interactions",
+            "uuid": "d44d0823-1523-457a-b028-6ea0da3adb34"
+        },
+        {
+            "category": "Access Control (PR.AC)",
+            "code": "2_PR.AC-7",
+            "label": "Users, devices, and other assets are authenticated (e.g., single-factor, multi-factor) commensurate with the risk of the transaction (e.g., individuals\u2019 security and privacy risks and other organizational risks)",
+            "uuid": "14aab29b-4760-4f32-ad21-06367a8ea05e"
         },
         {
             "category": "Awareness and Training (PR.AT)",
@@ -249,6 +291,12 @@
             "code": "2_PR.DS-7",
             "label": "The development and testing environment(s) are separate from the production environment",
             "uuid": "6604ef4c-a1d7-43d2-90e4-d2b8d97d880f"
+        },
+        {
+            "category": "Data Security (PR.DS)",
+            "code": "2_PR.DS-8",
+            "label": "Integrity checking mechanisms are used to verify hardware integrity",
+            "uuid": "892d5462-ee77-4379-ab88-a78f3eff45c1"
         },
         {
             "category": "Information Protection Processes and Procedures (PR.IP)",
@@ -357,6 +405,12 @@
             "code": "2_PR.PT-4",
             "label": "Communications and control networks are protected",
             "uuid": "6b2a7cc7-c35a-4020-92d8-5935e1229676"
+        },
+        {
+            "category": "Protective Technology (PR.PT)",
+            "code": "2_PR.PT-5",
+            "label": "Mechanisms (e.g., failsafe, load balancing, hot swap) are implemented to achieve resilience requirements in normal and adverse situations",
+            "uuid": "3e3e542a-67b2-4a77-b09b-9dc9b977cd8e"
         },
         {
             "category": "Anomalies and Events (DE.AE)",
@@ -527,6 +581,12 @@
             "uuid": "1ea30a61-92f4-4ae0-a349-3f947bf0dc94"
         },
         {
+            "category": "Analysis (RS.AN)",
+            "code": "4_RS.AN-5",
+            "label": "Processes are established to receive, analyze and respond to vulnerabilities disclosed to the organization from internal and external sources (e.g. internal testing, security bulletins, or security researchers)",
+            "uuid": "83c3ab70-566c-4bbe-a3b8-940d9fbb5ad7"
+        },
+        {
             "category": "Mitigation (RS.MI)",
             "code": "4_RS.MI-1",
             "label": "Incidents are contained",
@@ -594,5 +654,5 @@
         }
     ],
     "uuid": "fcf78560-3d12-42ba-8f4a-5761ca02ac94",
-    "version": "1.0"
+    "version": "1.1"
 }

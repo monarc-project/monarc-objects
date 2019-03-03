@@ -1,0 +1,691 @@
+{
+    "label": "ISO/IEC 27002",
+    "measures": [
+        {
+            "category": "Information security policies",
+            "code": "5.1.1",
+            "label": "Policies for information security",
+            "uuid": "267fc596-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Information security policies",
+            "code": "5.1.2",
+            "label": "Review of the policies for information security",
+            "uuid": "267fc6a6-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Organization of information security",
+            "code": "6.1.1",
+            "label": "Information security roles and responsibilities",
+            "uuid": "267fc73c-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Organization of information security",
+            "code": "6.1.2",
+            "label": "Segregation of duties",
+            "uuid": "267fd0b1-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Organization of information security",
+            "code": "6.1.3",
+            "label": "Contact with authorities",
+            "uuid": "267fc7c0-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Organization of information security",
+            "code": "6.1.4",
+            "label": "Contact with special interest groups",
+            "uuid": "267fc80f-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Organization of information security",
+            "code": "6.1.5",
+            "label": "Information Security in Project Management",
+            "uuid": "267fe6b9-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Organization of information security",
+            "code": "6.2.1",
+            "label": "Mobile device policy",
+            "uuid": "267fd9d0-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Organization of information security",
+            "code": "6.2.2",
+            "label": "Teleworking",
+            "uuid": "267fda0e-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Human resource security",
+            "code": "7.1.1",
+            "label": "Screening",
+            "uuid": "267fca6b-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Human resource security",
+            "code": "7.1.2",
+            "label": "Terms and conditions of employment",
+            "uuid": "267fcaad-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Human resource security",
+            "code": "7.2.1",
+            "label": "Management responsibilities",
+            "uuid": "267fc6f7-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Human resource security",
+            "code": "7.2.2",
+            "label": "Information security awareness, education and training",
+            "uuid": "267fcaeb-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Human resource security",
+            "code": "7.2.3",
+            "label": "Disciplinary process",
+            "uuid": "267fcb29-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Human resource security",
+            "code": "7.3.1",
+            "label": "Termination or change of employment responsibilities",
+            "uuid": "267fcb79-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Asset management",
+            "code": "8.1.1",
+            "label": "Inventory of Assets",
+            "uuid": "267fc90c-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Asset management",
+            "code": "8.1.2",
+            "label": "Ownership of assets",
+            "uuid": "267fc94c-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Asset management",
+            "code": "8.1.3",
+            "label": "Acceptable use of assets",
+            "uuid": "267fc989-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Asset management",
+            "code": "8.1.4",
+            "label": "Return of assets",
+            "uuid": "267fcbce-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Asset management",
+            "code": "8.2.1",
+            "label": "Classification guidelines",
+            "uuid": "267fc9c9-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Asset management",
+            "code": "8.2.2",
+            "label": "Labelling of information",
+            "uuid": "267fca19-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Asset management",
+            "code": "8.2.3",
+            "label": "Handling of assets",
+            "uuid": "267fe71a-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Asset management",
+            "code": "8.3.1",
+            "label": "Management of removeable media",
+            "uuid": "267fd32a-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Asset management",
+            "code": "8.3.2",
+            "label": "Disposal of media",
+            "uuid": "267fd369-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Asset management",
+            "code": "8.3.3",
+            "label": "Physical Media transfer",
+            "uuid": "267fd421-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Access control",
+            "code": "9.1.1",
+            "label": "Access control policy",
+            "uuid": "267fd659-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Access control",
+            "code": "9.1.2",
+            "label": "Access to networks and network services",
+            "uuid": "267fd81b-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Access control",
+            "code": "9.2.1",
+            "label": "User registration and deregistration",
+            "uuid": "267fd899-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Access control",
+            "code": "9.2.2",
+            "label": "User access provisioning",
+            "uuid": "267fe782-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Access control",
+            "code": "9.2.3",
+            "label": "Management of privileged access rights",
+            "uuid": "267fd69f-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Access control",
+            "code": "9.2.4",
+            "label": "Management of secret authentication information of users",
+            "uuid": "267fd6e4-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Access control",
+            "code": "9.2.5",
+            "label": "Review of user access rights",
+            "uuid": "267fd723-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Access control",
+            "code": "9.2.6",
+            "label": "Removal or adjustment of access rights",
+            "uuid": "267fcc3c-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Access control",
+            "code": "9.3.1",
+            "label": "Use of secret authentication information",
+            "uuid": "267fd761-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Access control",
+            "code": "9.4.1",
+            "label": "Information access restriction",
+            "uuid": "267fd993-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Access control",
+            "code": "9.4.2",
+            "label": "Sensitive system isolation",
+            "uuid": "267fd954-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Access control",
+            "code": "9.4.3",
+            "label": "Password management system",
+            "uuid": "267fd8d8-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Access control",
+            "code": "9.4.4",
+            "label": "Use of privileged utility programs",
+            "uuid": "267fd917-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Access control",
+            "code": "9.4.5",
+            "label": "Access control to program source code",
+            "uuid": "267fdbf1-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Cryptography",
+            "code": "10.1.1",
+            "label": "Policy on the use of cryptographic controls",
+            "uuid": "267fda8c-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Cryptography",
+            "code": "10.1.2",
+            "label": "Key management",
+            "uuid": "267fdacc-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.1.1",
+            "label": "Physical security perimeter",
+            "uuid": "267fcca4-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.1.2",
+            "label": "Physical entry controls",
+            "uuid": "267fcce9-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.1.3",
+            "label": "Securing offices, rooms and facilities",
+            "uuid": "267fcd30-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.1.4",
+            "label": "Protecting against external and environmental attacks",
+            "uuid": "267fcd6f-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.1.5",
+            "label": "Working in secure areas",
+            "uuid": "267fcdac-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.1.6",
+            "label": "Delivery and loading areas",
+            "uuid": "267fcdec-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.2.1",
+            "label": "Equipment siting and protection",
+            "uuid": "267fce44-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.2.2",
+            "label": "Supporting utilities",
+            "uuid": "267fce8a-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.2.3",
+            "label": "Cabling Security",
+            "uuid": "267fcecb-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.2.4",
+            "label": "Equipment maintenance",
+            "uuid": "267fcf0a-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.2.5",
+            "label": "Security of equipment off-premises",
+            "uuid": "267fcfdf-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.2.6",
+            "label": "Security of equipment and assets off-premises",
+            "uuid": "267fcf4f-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.2.7",
+            "label": "Secure disposal or re-use of equipment",
+            "uuid": "267fcf90-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.2.8",
+            "label": "Unattended user equipment",
+            "uuid": "267fd7a0-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "11.2.9",
+            "label": "Clear desk and clear screen policy",
+            "uuid": "267fd7dd-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Operations security",
+            "code": "12.1.1",
+            "label": "Documented operating procedures",
+            "uuid": "267fd029-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Operations security",
+            "code": "12.1.2",
+            "label": "Change management",
+            "uuid": "267fd073-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Operations security",
+            "code": "12.1.3",
+            "label": "Capacity management",
+            "uuid": "267fd1a8-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Operations security",
+            "code": "12.1.4",
+            "label": "Separation of development, testing and operational environments",
+            "uuid": "267fd0ef-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Operations security",
+            "code": "12.2.1",
+            "label": "Controls against malicious code",
+            "uuid": "267fd22e-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Operations security",
+            "code": "12.3.1",
+            "label": "Information Backup",
+            "uuid": "267fd272-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Operations security",
+            "code": "12.4.1",
+            "label": "Event logging",
+            "uuid": "267fd529-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Operations security",
+            "code": "12.4.2",
+            "label": "Protection of log information",
+            "uuid": "267fd567-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Operations security",
+            "code": "12.4.3",
+            "label": "Administrator and operator logs",
+            "uuid": "267fd5ae-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Operations security",
+            "code": "12.4.4",
+            "label": "Clock synchronisation",
+            "uuid": "267fd610-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Operations security",
+            "code": "12.5.1",
+            "label": "Installation of software on operational systems",
+            "uuid": "267fdb18-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Operations security",
+            "code": "12.6.1",
+            "label": "Management of technical vulnerabilities",
+            "uuid": "267fdda3-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Operations security",
+            "code": "12.6.2",
+            "label": "Restrictions on software installation",
+            "uuid": "267fe8fe-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Operations security",
+            "code": "12.7.1",
+            "label": "Information systems audit controls",
+            "uuid": "267fe660-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Communications security",
+            "code": "13.1.1",
+            "label": "Network controls",
+            "uuid": "267fd2b1-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Communications security",
+            "code": "13.1.2",
+            "label": "Security of network services",
+            "uuid": "267fd2ee-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Communications security",
+            "code": "13.1.3",
+            "label": "Segregation in networks",
+            "uuid": "267fd85b-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Communications security",
+            "code": "13.2.1",
+            "label": "Information transfer policies and procedures",
+            "uuid": "267fd3a6-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Communications security",
+            "code": "13.2.2",
+            "label": "Agreements on information transfer",
+            "uuid": "267fd3e3-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Communications security",
+            "code": "13.2.3",
+            "label": "Electronic messaging",
+            "uuid": "267fd462-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Communications security",
+            "code": "13.2.4",
+            "label": "Confidentiality or non-disclosure agreements",
+            "uuid": "267fc77e-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "System acquisition, development and maintenance",
+            "code": "14.1.1",
+            "label": "Information security requirements analysis and specification",
+            "uuid": "267fda50-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "System acquisition, development and maintenance",
+            "code": "14.1.2",
+            "label": "Securing application services on public networks",
+            "uuid": "267fd4ac-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "System acquisition, development and maintenance",
+            "code": "14.1.3",
+            "label": "Protecting application services transactions",
+            "uuid": "267fd4ed-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "System acquisition, development and maintenance",
+            "code": "14.2.1",
+            "label": "Secure development policy",
+            "uuid": "267fe8a1-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "System acquisition, development and maintenance",
+            "code": "14.2.2",
+            "label": "System change control procedures",
+            "uuid": "267fdc38-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "System acquisition, development and maintenance",
+            "code": "14.2.3",
+            "label": "Technical review of applications after operating platform changes",
+            "uuid": "267fdc8c-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "System acquisition, development and maintenance",
+            "code": "14.2.4",
+            "label": "Restrictions on changes to software packages",
+            "uuid": "267fdcf3-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "System acquisition, development and maintenance",
+            "code": "14.2.5",
+            "label": "Secure system engineering principles",
+            "uuid": "267fdf36-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "System acquisition, development and maintenance",
+            "code": "14.2.6",
+            "label": "Secure development environment",
+            "uuid": "267fe847-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "System acquisition, development and maintenance",
+            "code": "14.2.7",
+            "label": "Outsourced software development",
+            "uuid": "267fdd55-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "System acquisition, development and maintenance",
+            "code": "14.2.8",
+            "label": "System security testing",
+            "uuid": "267fe7e9-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "System acquisition, development and maintenance",
+            "code": "14.2.9",
+            "label": "System acceptance testing",
+            "uuid": "267fd1ea-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "System acquisition, development and maintenance",
+            "code": "14.3.1",
+            "label": "Protection of test data",
+            "uuid": "267fdb78-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Supplier relationships",
+            "code": "15.1.1",
+            "label": "Information security policy for supplier relationships",
+            "uuid": "267fc88e-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Supplier relationships",
+            "code": "15.1.2",
+            "label": "Addressing security within supplier agreements",
+            "uuid": "267fc8cc-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Supplier relationships",
+            "code": "15.1.3",
+            "label": "Informaiton and communication technology supply chain",
+            "uuid": "267fe959-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Supplier relationships",
+            "code": "15.2.1",
+            "label": "Monitoring and review of supplier services",
+            "uuid": "267fd12f-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Supplier relationships",
+            "code": "15.2.2",
+            "label": "Managing changes to supplier services",
+            "uuid": "267fd16b-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "information security incident management",
+            "code": "16.1.1",
+            "label": "Responsibilities and procedures",
+            "uuid": "267fde78-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "information security incident management",
+            "code": "16.1.2",
+            "label": "Reporting information security events",
+            "uuid": "267fddeb-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "information security incident management",
+            "code": "16.1.3",
+            "label": "Reporting information security weaknesses",
+            "uuid": "267fde31-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "information security incident management",
+            "code": "16.1.4",
+            "label": "Assessment of and decision on information security events",
+            "uuid": "267fe9b4-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "information security incident management",
+            "code": "16.1.5",
+            "label": "Response in information security incidents",
+            "uuid": "267fea11-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "information security incident management",
+            "code": "16.1.6",
+            "label": "Learning from information security incidents",
+            "uuid": "267fdeb8-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "information security incident management",
+            "code": "16.1.7",
+            "label": "Collection of evidence",
+            "uuid": "267fdef6-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Information security aspects of business continuity management",
+            "code": "17.1.1",
+            "label": "Planning information security continuity",
+            "uuid": "267fdf76-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Information security aspects of business continuity management",
+            "code": "17.1.2",
+            "label": "Implementing information security continuity",
+            "uuid": "267fdfbe-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Information security aspects of business continuity management",
+            "code": "17.1.3",
+            "label": "Verify, review and evaluate information security continuity",
+            "uuid": "267fe022-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Information security aspects of business continuity management",
+            "code": "17.2.1",
+            "label": "Availability of information processing facilities",
+            "uuid": "267fea72-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Compliance",
+            "code": "18.1.1",
+            "label": "Identification of applicable legislation",
+            "uuid": "267fe08b-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Compliance",
+            "code": "18.1.2",
+            "label": "Intellectual Property Rights",
+            "uuid": "267fe307-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Compliance",
+            "code": "18.1.3",
+            "label": "Protection of records",
+            "uuid": "267fe37d-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Compliance",
+            "code": "18.1.4",
+            "label": "Privacy and protection of personally identifiable information",
+            "uuid": "267fe3de-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Compliance",
+            "code": "18.1.5",
+            "label": "Regulation of cryptographic controls",
+            "uuid": "267fe510-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Compliance",
+            "code": "18.2.1",
+            "label": "Independent review of information security",
+            "uuid": "267fc84f-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Compliance",
+            "code": "18.2.2",
+            "label": "Compliance with security policies and standards",
+            "uuid": "267fe58f-f705-11e8-b555-0800279aaa2b"
+        },
+        {
+            "category": "Compliance",
+            "code": "18.2.3",
+            "label": "Technical compliance review",
+            "uuid": "267fe600-f705-11e8-b555-0800279aaa2b"
+        }
+    ],
+    "uuid": "98ca84fb-db87-11e8-ac77-0800279aaa2b",
+    "version": "1.0"
+}
