@@ -1,0 +1,365 @@
+{
+    "label": "NIS security measures - NIST Core",
+    "measures": [
+        {
+            "control": "030ef936-d0fe-4d6b-9238-e3004f58f7b6",
+            "match": "d2e86e2d-5bec-42a2-b642-69995b6abcf0"
+        },
+        {
+            "control": "030ef936-d0fe-4d6b-9238-e3004f58f7b6",
+            "match": "cc6aad46-1887-4da6-93e3-c707be07b9f5"
+        },
+        {
+            "control": "030ef936-d0fe-4d6b-9238-e3004f58f7b6",
+            "match": "0550c268-534a-4311-920d-84466e4865c4"
+        },
+        {
+            "control": "030ef936-d0fe-4d6b-9238-e3004f58f7b6",
+            "match": "1bad7834-b740-48ff-8450-5792b55614db"
+        },
+        {
+            "control": "030ef936-d0fe-4d6b-9238-e3004f58f7b6",
+            "match": "7c09a9bf-407c-4509-94c0-af8314fc3b86"
+        },
+        {
+            "control": "030ef936-d0fe-4d6b-9238-e3004f58f7b6",
+            "match": "6d0bfd47-88dc-484a-aed8-196eaa12c4db"
+        },
+        {
+            "control": "030ef936-d0fe-4d6b-9238-e3004f58f7b6",
+            "match": "98ce2a28-d424-4436-8c41-2ec0e8d563fa"
+        },
+        {
+            "control": "030ef936-d0fe-4d6b-9238-e3004f58f7b6",
+            "match": "e384f897-1b70-49a5-8491-24c035e1451f"
+        },
+        {
+            "control": "030ef936-d0fe-4d6b-9238-e3004f58f7b6",
+            "match": "7a9f7d35-6714-4182-ae88-d9ff575224a6"
+        },
+        {
+            "control": "030ef936-d0fe-4d6b-9238-e3004f58f7b6",
+            "match": "97331ab3-3365-4fb0-894c-578c460720fa"
+        },
+        {
+            "control": "030ef936-d0fe-4d6b-9238-e3004f58f7b6",
+            "match": "6386d5df-56f8-46ad-b181-e870491004a5"
+        },
+        {
+            "control": "02527779-a76f-42fc-b420-6726099d4241",
+            "match": "7a4074cc-5b40-486a-9a52-6b49be7f95e6"
+        },
+        {
+            "control": "02527779-a76f-42fc-b420-6726099d4241",
+            "match": "29613b2e-8def-417e-85fa-31aa5ef5de3b"
+        },
+        {
+            "control": "02527779-a76f-42fc-b420-6726099d4241",
+            "match": "4e2499c0-d23d-4977-9e9f-6323af31be24"
+        },
+        {
+            "control": "d646a78e-68d8-4d60-a01f-455b1a0df4f1",
+            "match": "3dcdd5d1-48e8-4b66-8567-65e0f0c8be4a"
+        },
+        {
+            "control": "cfda8669-f42c-4917-833e-b873110b4380",
+            "match": "01d259f0-ece0-4f7c-91bf-d09844c576cc"
+        },
+        {
+            "control": "cfda8669-f42c-4917-833e-b873110b4380",
+            "match": "6386d5df-56f8-46ad-b181-e870491004a5"
+        },
+        {
+            "control": "cfda8669-f42c-4917-833e-b873110b4380",
+            "match": "4879e4fb-cd0e-4968-8dd2-4b6dbe977cdc"
+        },
+        {
+            "control": "cfda8669-f42c-4917-833e-b873110b4380",
+            "match": "987e9304-80fd-4470-b8b4-213f41a0a957"
+        },
+        {
+            "control": "cfda8669-f42c-4917-833e-b873110b4380",
+            "match": "92a81683-1877-48d3-9d5a-c7c0ddd9852b"
+        },
+        {
+            "control": "11c11899-6a4d-4937-ae09-fc3dcfdb26f9",
+            "match": "dec6cf8c-1714-45f4-bfd2-23a049fb9b35"
+        },
+        {
+            "control": "11c11899-6a4d-4937-ae09-fc3dcfdb26f9",
+            "match": "e4f36efd-2e64-4ee8-9fd1-af2bec0b68d0"
+        },
+        {
+            "control": "11c11899-6a4d-4937-ae09-fc3dcfdb26f9",
+            "match": "231fc2b1-80c2-450e-9d80-f804f5a8984c"
+        },
+        {
+            "control": "11c11899-6a4d-4937-ae09-fc3dcfdb26f9",
+            "match": "acfea27c-c6d5-421a-9ae4-2db82610cc41"
+        },
+        {
+            "control": "11c11899-6a4d-4937-ae09-fc3dcfdb26f9",
+            "match": "e4f36efd-2e64-4ee8-9fd1-af2bec0b68d0"
+        },
+        {
+            "control": "11c11899-6a4d-4937-ae09-fc3dcfdb26f9",
+            "match": "f4f7466f-0ae6-4867-a2ee-6be4e1f02329"
+        },
+        {
+            "control": "66b045d6-77a5-426f-afe5-55cac81ac5c8",
+            "match": "46555297-7af1-4d59-ac07-6e627aef4dda"
+        },
+        {
+            "control": "66b045d6-77a5-426f-afe5-55cac81ac5c8",
+            "match": "63f9f527-2c63-4fda-acda-7ebcf3025873"
+        },
+        {
+            "control": "26b54bed-01d5-4614-b0ed-907af072b8a9",
+            "match": "1a422e41-50fc-4c74-b1e4-e3d40b7c82f3"
+        },
+        {
+            "control": "26b54bed-01d5-4614-b0ed-907af072b8a9",
+            "match": "eaa4fb9d-e687-41a0-8d4b-1ca972bed10a"
+        },
+        {
+            "control": "26b54bed-01d5-4614-b0ed-907af072b8a9",
+            "match": "4879e4fb-cd0e-4968-8dd2-4b6dbe977cdc"
+        },
+        {
+            "control": "8e6bf606-42cf-4f85-bedd-5e633d241183",
+            "match": "30a7a092-3e00-4d33-aec2-66d019c2ff03"
+        },
+        {
+            "control": "8e6bf606-42cf-4f85-bedd-5e633d241183",
+            "match": "6f6442e8-952b-4a13-9e97-7c233a7b2a1c"
+        },
+        {
+            "control": "a3f6ee47-de81-400a-a7dc-79e79fb73729",
+            "match": "800fc6f9-e574-4152-89e6-30bae7da4adc"
+        },
+        {
+            "control": "9fa537a3-efc0-4624-aeae-ab975076e1c0",
+            "match": "6386d5df-56f8-46ad-b181-e870491004a5"
+        },
+        {
+            "control": "4baf165d-b157-4c19-bbd6-ad3ddd5dbe79",
+            "match": "6386d5df-56f8-46ad-b181-e870491004a5"
+        },
+        {
+            "control": "f5f8ef4a-25f2-4169-b279-424081fc6125",
+            "match": "a6b301ed-e0c1-467d-8e42-e2796c64b785"
+        },
+        {
+            "control": "6b327343-7f81-4a40-bc46-194cf5aa54df",
+            "match": "50fc2488-b730-48ae-abf8-93e60f141404"
+        },
+        {
+            "control": "6b327343-7f81-4a40-bc46-194cf5aa54df",
+            "match": "766520fa-3439-4382-babc-eb7d9d6b1f52"
+        },
+        {
+            "control": "6b327343-7f81-4a40-bc46-194cf5aa54df",
+            "match": "a6b301ed-e0c1-467d-8e42-e2796c64b785"
+        },
+        {
+            "control": "6b327343-7f81-4a40-bc46-194cf5aa54df",
+            "match": "8feec5e9-c2b2-465b-8fa3-8b65b6a09fcb"
+        },
+        {
+            "control": "752f00ca-196b-4055-b660-4a09185ce3a7",
+            "match": "7cd438b8-038b-4f1f-a431-a1a1a83e009c"
+        },
+        {
+            "control": "752f00ca-196b-4055-b660-4a09185ce3a7",
+            "match": "6da92eea-2f74-458f-a643-361df7ea9f2f"
+        },
+        {
+            "control": "752f00ca-196b-4055-b660-4a09185ce3a7",
+            "match": "831f20de-eadb-44a7-82f3-fcb116d8cb69"
+        },
+        {
+            "control": "efcb645f-ca20-484d-a3b7-6ef98db907ff",
+            "match": "7ec8092e-3e41-43e0-a8b2-c42b980dd29b"
+        },
+        {
+            "control": "157d5514-b3cd-4d31-9bff-560a1a436d96",
+            "match": "382fe4f1-9f05-4169-a343-2c961a8cf359"
+        },
+        {
+            "control": "157d5514-b3cd-4d31-9bff-560a1a436d96",
+            "match": "f01b50b8-0e54-4f8f-afee-0ec56f788a42"
+        },
+        {
+            "control": "725706a3-fa1d-48e1-8458-21974439b34b",
+            "match": "24ac8920-3747-45bb-b9d1-1ca0d1d84d3f"
+        },
+        {
+            "control": "725706a3-fa1d-48e1-8458-21974439b34b",
+            "match": "9b355a55-73ce-4d55-8016-d93e3c555a55"
+        },
+        {
+            "control": "725706a3-fa1d-48e1-8458-21974439b34b",
+            "match": "dec6cf8c-1714-45f4-bfd2-23a049fb9b35"
+        },
+        {
+            "control": "725706a3-fa1d-48e1-8458-21974439b34b",
+            "match": "a8f83595-0327-4e24-9557-0e8d9b82856f"
+        },
+        {
+            "control": "725706a3-fa1d-48e1-8458-21974439b34b",
+            "match": "70e202bf-2270-4daf-8fb5-4f6fb10de979"
+        },
+        {
+            "control": "725706a3-fa1d-48e1-8458-21974439b34b",
+            "match": "54eeaae4-2b82-43ce-9a61-40d453116d8d"
+        },
+        {
+            "control": "725706a3-fa1d-48e1-8458-21974439b34b",
+            "match": "bbb99e89-ee33-46fc-bc03-1582631210c4"
+        },
+        {
+            "control": "725706a3-fa1d-48e1-8458-21974439b34b",
+            "match": "e4f36efd-2e64-4ee8-9fd1-af2bec0b68d0"
+        },
+        {
+            "control": "725706a3-fa1d-48e1-8458-21974439b34b",
+            "match": "ebc0b0f8-4403-481f-be4a-7f35ae3cb6be"
+        },
+        {
+            "control": "725706a3-fa1d-48e1-8458-21974439b34b",
+            "match": "48a13f85-a811-43fa-a0e8-89f67fb2743f"
+        },
+        {
+            "control": "725706a3-fa1d-48e1-8458-21974439b34b",
+            "match": "f9d1a926-5d39-4123-8b83-a94c21ff18e5"
+        },
+        {
+            "control": "725706a3-fa1d-48e1-8458-21974439b34b",
+            "match": "23e4c883-c358-4b64-8d7e-249c67b7f1f2"
+        },
+        {
+            "control": "725706a3-fa1d-48e1-8458-21974439b34b",
+            "match": "025611cb-8431-4a9c-a88c-039141472418"
+        },
+        {
+            "control": "725706a3-fa1d-48e1-8458-21974439b34b",
+            "match": "ad0458f2-c836-4c7d-9d8f-6333fc6af2e9"
+        },
+        {
+            "control": "1b9d05fc-e385-4fdb-aa44-54e069a9ea91",
+            "match": "9b355a55-73ce-4d55-8016-d93e3c555a55"
+        },
+        {
+            "control": "957b42b2-b3c6-4d0c-b32e-fcc4bea29ffd",
+            "match": "9b355a55-73ce-4d55-8016-d93e3c555a55"
+        },
+        {
+            "control": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8",
+            "match": "69f50c12-9eab-4305-be4f-97a2002ccc0c"
+        },
+        {
+            "control": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8",
+            "match": "31dc508e-664e-4173-8757-00ec985115c8"
+        },
+        {
+            "control": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8",
+            "match": "3f6e72ed-2984-452d-badd-5563acbf0450"
+        },
+        {
+            "control": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8",
+            "match": "52d551ef-7334-45a3-9dd7-0b8d239ba1f6"
+        },
+        {
+            "control": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8",
+            "match": "e6ab0d96-2ced-445d-a19f-97710b2cc346"
+        },
+        {
+            "control": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8",
+            "match": "0c7c3558-9c78-4bcc-816b-9123c899b653"
+        },
+        {
+            "control": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8",
+            "match": "cf3d3d41-f0d5-4eb9-b6c5-537d72ea645a"
+        },
+        {
+            "control": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8",
+            "match": "1ea30a61-92f4-4ae0-a349-3f947bf0dc94"
+        },
+        {
+            "control": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8",
+            "match": "4fe097cd-e0c0-4698-a209-43ffb553a279"
+        },
+        {
+            "control": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8",
+            "match": "b237b4b1-a21a-4122-b4c8-e068ad58ef21"
+        },
+        {
+            "control": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8",
+            "match": "cce52cf2-aa85-4f33-8cb8-b0508f452c25"
+        },
+        {
+            "control": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8",
+            "match": "2736e702-38ef-439d-9e8b-989ef56f8735"
+        },
+        {
+            "control": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8",
+            "match": "e94941eb-31da-40e0-b944-07c43233e7c0"
+        },
+        {
+            "control": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8",
+            "match": "0de24c0a-53cb-4481-9b8d-fccc252e4f03"
+        },
+        {
+            "control": "ea405481-cbe2-4e15-b2a3-f45563e160cc",
+            "match": "cce52cf2-aa85-4f33-8cb8-b0508f452c25"
+        },
+        {
+            "control": "ea405481-cbe2-4e15-b2a3-f45563e160cc",
+            "match": "30ff804b-d8e2-44da-a49e-bb1a39e5f81a"
+        },
+        {
+            "control": "ea405481-cbe2-4e15-b2a3-f45563e160cc",
+            "match": "2d88bd60-ff72-40cc-a2b4-ae7c9cbd2a68"
+        },
+        {
+            "control": "ea405481-cbe2-4e15-b2a3-f45563e160cc",
+            "match": "34a2e449-b69d-4f75-a548-8c5faee598b5"
+        },
+        {
+            "control": "ea405481-cbe2-4e15-b2a3-f45563e160cc",
+            "match": "bb37f7e5-ff5d-4b9a-a621-dfb26f3fccaf"
+        },
+        {
+            "control": "b24b90b0-eeea-4a56-b5ef-2c484467c97a",
+            "match": "75942c69-3336-4e82-bf59-515aaa6e3513"
+        },
+        {
+            "control": "b24b90b0-eeea-4a56-b5ef-2c484467c97a",
+            "match": "e4380999-3c82-4b85-86cd-86f1f37f97ab"
+        },
+        {
+            "control": "b24b90b0-eeea-4a56-b5ef-2c484467c97a",
+            "match": "2e411d93-1836-4dbc-baf1-a747d2a9915a"
+        },
+        {
+            "control": "f87f15fe-0170-4164-90de-091d9519d140",
+            "match": "e4380999-3c82-4b85-86cd-86f1f37f97ab"
+        },
+        {
+            "control": "f87f15fe-0170-4164-90de-091d9519d140",
+            "match": "e4f85702-5874-4361-beec-45d00b379c5b"
+        },
+        {
+            "control": "0ca52ad9-4570-46be-88ce-d22efd4a145b",
+            "match": "e4380999-3c82-4b85-86cd-86f1f37f97ab"
+        },
+        {
+            "control": "0ca52ad9-4570-46be-88ce-d22efd4a145b",
+            "match": "e4f85702-5874-4361-beec-45d00b379c5b"
+        },
+        {
+            "control": "e1a91f54-34e4-45c7-8eae-dfc6dee15854",
+            "match": "e4380999-3c82-4b85-86cd-86f1f37f97ab"
+        }
+    ]
+}

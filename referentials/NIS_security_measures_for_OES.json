@@ -1,0 +1,187 @@
+{
+    "label": "NIS security measures for OES",
+    "measures": [
+        {
+            "category": "Information System Security Governance & Risk Management",
+            "code": "1.1.1",
+            "label": "Information system security risk analysis",
+            "uuid": "030ef936-d0fe-4d6b-9238-e3004f58f7b6"
+        },
+        {
+            "category": "Information System Security Governance & Risk Management",
+            "code": "1.1.2",
+            "label": "Information system security policy",
+            "uuid": "02527779-a76f-42fc-b420-6726099d4241"
+        },
+        {
+            "category": "Information System Security Governance & Risk Management",
+            "code": "1.1.3",
+            "label": "Information system security accreditation",
+            "uuid": "8ead422e-2d73-48e8-82f9-b82fe363d072"
+        },
+        {
+            "category": "Information System Security Governance & Risk Management",
+            "code": "1.1.4",
+            "label": "Information system security indicators",
+            "uuid": "7d1e4532-ddb1-408c-8a9d-ffed0cef3821"
+        },
+        {
+            "category": "Information System Security Governance & Risk Management",
+            "code": "1.1.5",
+            "label": "Information system security audit",
+            "uuid": "d646a78e-68d8-4d60-a01f-455b1a0df4f1"
+        },
+        {
+            "category": "Information System Security Governance & Risk Management",
+            "code": "1.1.6",
+            "label": "Human resource security",
+            "uuid": "cfda8669-f42c-4917-833e-b873110b4380"
+        },
+        {
+            "category": "Information System Security Governance & Risk Management",
+            "code": "1.1.7",
+            "label": "Asset Management",
+            "uuid": "11c11899-6a4d-4937-ae09-fc3dcfdb26f9"
+        },
+        {
+            "category": "Ecosystem management",
+            "code": "1.2.1",
+            "label": "Ecosystem mapping",
+            "uuid": "66b045d6-77a5-426f-afe5-55cac81ac5c8"
+        },
+        {
+            "category": "Ecosystem management",
+            "code": "1.2.2",
+            "label": "Ecosystem relations",
+            "uuid": "26b54bed-01d5-4614-b0ed-907af072b8a9"
+        },
+        {
+            "category": "IT Security Architecture",
+            "code": "2.1.1",
+            "label": "Systems configuration",
+            "uuid": "8e6bf606-42cf-4f85-bedd-5e633d241183"
+        },
+        {
+            "category": "IT Security Architecture",
+            "code": "2.1.2",
+            "label": "System segregation",
+            "uuid": "a3f6ee47-de81-400a-a7dc-79e79fb73729"
+        },
+        {
+            "category": "IT Security Architecture",
+            "code": "2.1.3",
+            "label": "Traffic filtering",
+            "uuid": "7374508b-6114-4219-8834-7b87117fcbf9"
+        },
+        {
+            "category": "IT Security Architecture",
+            "code": "2.1.4",
+            "label": "Cryptography",
+            "uuid": "fd44edba-005b-447c-8612-c0a92cbb0ec6"
+        },
+        {
+            "category": "IT Security Administration",
+            "code": "2.2.1",
+            "label": "Administration accounts",
+            "uuid": "9fa537a3-efc0-4624-aeae-ab975076e1c0"
+        },
+        {
+            "category": "IT Security Administration",
+            "code": "2.2.2",
+            "label": "Administration information systems",
+            "uuid": "4baf165d-b157-4c19-bbd6-ad3ddd5dbe79"
+        },
+        {
+            "category": "Identity and access management",
+            "code": "2.3.1",
+            "label": "Authentication and identification",
+            "uuid": "f5f8ef4a-25f2-4169-b279-424081fc6125"
+        },
+        {
+            "category": "Identity and access management",
+            "code": "2.3.2",
+            "label": "Access rights",
+            "uuid": "6b327343-7f81-4a40-bc46-194cf5aa54df"
+        },
+        {
+            "category": "IT Security Maintenance",
+            "code": "2.4.1",
+            "label": "IT security maintenance procedure",
+            "uuid": "752f00ca-196b-4055-b660-4a09185ce3a7"
+        },
+        {
+            "category": "IT Security Maintenance",
+            "code": "2.4.2",
+            "label": "Remote access",
+            "uuid": "efcb645f-ca20-484d-a3b7-6ef98db907ff"
+        },
+        {
+            "category": "Physical and environmental security",
+            "code": "2.5.1",
+            "label": "Physical and environmental security",
+            "uuid": "157d5514-b3cd-4d31-9bff-560a1a436d96"
+        },
+        {
+            "category": "Detection",
+            "code": "3.1.1",
+            "label": "Detection",
+            "uuid": "725706a3-fa1d-48e1-8458-21974439b34b"
+        },
+        {
+            "category": "Detection",
+            "code": "3.1.2",
+            "label": "Logging",
+            "uuid": "1b9d05fc-e385-4fdb-aa44-54e069a9ea91"
+        },
+        {
+            "category": "Detection",
+            "code": "3.1.3",
+            "label": "Logs correlation and analysis",
+            "uuid": "957b42b2-b3c6-4d0c-b32e-fcc4bea29ffd"
+        },
+        {
+            "category": "Computer Security Incident Management",
+            "code": "3.2.1",
+            "label": "Information system security incident response",
+            "uuid": "f739cbb5-8ed4-4136-b4c0-4fd3edb84cd8"
+        },
+        {
+            "category": "Computer Security Incident Management",
+            "code": "3.2.2",
+            "label": "Incident Report",
+            "uuid": "ea405481-cbe2-4e15-b2a3-f45563e160cc"
+        },
+        {
+            "category": "Computer Security Incident Management",
+            "code": "3.2.3",
+            "label": "Communication with competent authorities and CSIRTs",
+            "uuid": "fbfa7c30-f131-4e9b-9e8a-53ad4b90b164"
+        },
+        {
+            "category": "Continuity of operations",
+            "code": "4.1.1",
+            "label": "Business continuity management",
+            "uuid": "b24b90b0-eeea-4a56-b5ef-2c484467c97a"
+        },
+        {
+            "category": "Continuity of operations",
+            "code": "4.1.2",
+            "label": "Disaster recovery management",
+            "uuid": "f87f15fe-0170-4164-90de-091d9519d140"
+        },
+        {
+            "category": "Crisis management",
+            "code": "4.2.1",
+            "label": "Crisis management organization",
+            "uuid": "0ca52ad9-4570-46be-88ce-d22efd4a145b"
+        },
+        {
+            "category": "Crisis management",
+            "code": "4.2.2",
+            "label": "Crisis management process",
+            "uuid": "e1a91f54-34e4-45c7-8eae-dfc6dee15854"
+        }
+    ],
+    "uuid": "3f4a2a67-a1f9-46e1-8d71-7f6486217bb7",
+    "version": "1.0"
+}
