@@ -35,8 +35,7 @@
     "required": [
         "uuid",
         "code",
-        "label",
-        "mode"
+        "label"
     ],
     "title": "Validator for vulnerabilities used in MONARC",
     "type": "object"
