@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "additionalProperties": false,
+    "id": "",
+    "properties": {
+        "authors": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+        },
+        "uuid": {
+            "type": "string",
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+        },
+        "code": {
+            "type": "string"
+        },
+        "label": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "mode": {
+            "type": "integer",
+            "default": 0
+        },
+        "status": {
+            "type": "integer",
+            "default": 0
+        }
+    },
+    "required": [
+        "uuid",
+        "code",
+        "label",
+        "mode"
+    ],
+    "title": "Validator for vulnerabilities used in MONARC",
+    "type": "object"
+}
