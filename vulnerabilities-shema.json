@@ -30,7 +30,17 @@
         "status": {
             "type": "integer",
             "default": 0
-        }
+        },
+	"language": {
+	    "type": "string",
+	    "default": "EN",
+	    "oneOf": [
+		{
+		    "type": "string",
+		    "pattern": "^[A-Z]{2}$"
+		}
+	    ]
+	}
     },
     "required": [
         "uuid",
