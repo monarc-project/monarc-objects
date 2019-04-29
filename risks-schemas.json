@@ -1,0 +1,35 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "additionalProperties": false,
+    "id": "",
+    "properties": {
+        "authors": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+        },
+        "uuid": {
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+            "type": "string"
+        },
+        "asset": {
+            "ref": "https://objects.monarc.lu/schema/1#"
+        },
+        "threat": {
+            "ref": "https://objects.monarc.lu/schema/15#"
+        },
+        "vulnerability": {
+            "ref": "https://objects.monarc.lu/schema/14#"
+        }
+    },
+    "required": [
+        "uuid",
+        "asset",
+        "threat",
+        "vulnerability"
+    ],
+    "title": "Validator for risks used in MONARC",
+    "type": "object"
+}
