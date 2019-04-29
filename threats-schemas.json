@@ -1,0 +1,59 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "additionalProperties": false,
+    "id": "",
+    "properties": {
+        "authors": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+        },
+        "uuid": {
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+            "type": "string"
+        },
+        "code": {
+            "type": "string"
+        },
+        "label": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "c": {
+            "default": 0,
+            "type": "integer"
+        },
+        "i": {
+            "default": 0,
+            "type": "integer"
+        },
+        "a": {
+            "default": 0,
+            "type": "integer"
+        },
+        "theme": {
+            "type": "string"
+        },
+        "language": {
+            "default": "EN",
+            "oneOf": [
+                {
+                    "pattern": "^[A-Z]{2}$",
+                    "type": "string"
+                }
+            ],
+            "type": "string"
+        }
+    },
+    "required": [
+        "uuid",
+        "code",
+        "label"
+    ],
+    "title": "Validator for threats used in MONARC",
+    "type": "object"
+}
