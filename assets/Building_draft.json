@@ -1,8 +1,7 @@
 {
-    "authors": [],
-    "description": "Building",
-    "name": "Building",
-    "type": "Fundamentals",
-    "uuid": "fcd22063-5bba-4e24-9fba-f304ed5a910b",
+    "description": "Establishment, buildings, offices, reserved access zone, etc.",
+    "label": "Premises, building",
+    "code": "BAT_LOC",
+    "uuid": "d2023c5d-44d1-11e9-a78c-0800277f0571",
     "version": 1
 }
