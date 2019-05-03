@@ -15,13 +15,13 @@
             "type": "string"
         },
         "asset": {
-            "ref": "https://objects.monarc.lu/schema/1#"
+            "#ref": "https://objects.monarc.lu/schema/1#"
         },
         "threat": {
-            "ref": "https://objects.monarc.lu/schema/15#"
+            "#ref": "https://objects.monarc.lu/schema/15#"
         },
         "vulnerability": {
-            "ref": "https://objects.monarc.lu/schema/14#"
+            "#ref": "https://objects.monarc.lu/schema/14#"
         }
     },
     "required": [

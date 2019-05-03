@@ -3,6 +3,10 @@
     "additionalProperties": false,
     "id": "",
     "properties": {
+        "a": {
+            "default": false,
+            "type": "boolean"
+        },
         "authors": {
             "items": {
                 "type": "string"
@@ -10,32 +14,21 @@
             "type": "array",
             "uniqueItems": true
         },
-        "uuid": {
-            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
-            "type": "string"
+        "c": {
+            "default": false,
+            "type": "boolean"
         },
         "code": {
-            "type": "string"
-        },
-        "label": {
             "type": "string"
         },
         "description": {
             "type": "string"
         },
-        "c": {
-            "default": 0,
-            "type": "integer"
-        },
         "i": {
-            "default": 0,
-            "type": "integer"
+            "default": false,
+            "type": "boolean"
         },
-        "a": {
-            "default": 0,
-            "type": "integer"
-        },
-        "theme": {
+        "label": {
             "type": "string"
         },
         "language": {
@@ -46,6 +39,13 @@
                     "type": "string"
                 }
             ],
+            "type": "string"
+        },
+        "theme": {
+            "type": "string"
+        },
+        "uuid": {
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
             "type": "string"
         }
     },

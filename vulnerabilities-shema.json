@@ -10,37 +10,37 @@
             "type": "array",
             "uniqueItems": true
         },
-        "uuid": {
-            "type": "string",
-            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
-        },
         "code": {
-            "type": "string"
-        },
-        "label": {
             "type": "string"
         },
         "description": {
             "type": "string"
         },
+        "label": {
+            "type": "string"
+        },
+        "language": {
+            "default": "EN",
+            "oneOf": [
+                {
+                    "pattern": "^[A-Z]{2}$",
+                    "type": "string"
+                }
+            ],
+            "type": "string"
+        },
         "mode": {
-            "type": "integer",
-            "default": 0
+            "default": 0,
+            "type": "integer"
         },
         "status": {
-            "type": "integer",
-            "default": 0
+            "default": 0,
+            "type": "integer"
         },
-    "language": {
-        "type": "string",
-        "default": "EN",
-        "oneOf": [
-        {
-            "type": "string",
-            "pattern": "^[A-Z]{2}$"
+        "uuid": {
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+            "type": "string"
         }
-        ]
-    }
     },
     "required": [
         "uuid",

@@ -1,12 +1,8 @@
 {
-    "authors": [
-        "The MONARC project"
-    ],
     "code": "14",
-    "description": "Unnecessary use of resources",
+    "description": "",
     "label": "Unnecessary use of resources",
     "mode": 0,
     "status": 1,
-    "language": "EN"
-    "uuid": "936fea4f-403f-4c0d-a65d-8007eadd2a03"
+    "uuid": "69fc0784-4591-11e9-9173-0800277f0571"
 }

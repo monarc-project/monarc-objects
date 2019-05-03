@@ -1,46 +1,56 @@
 {
     "$schema": "http://json-schema.org/schema#",
-    "title": "Validator for assets used in MONARC",
-    "id": "",
-    "type": "object",
     "additionalProperties": false,
+    "id": "",
     "properties": {
-	"authors": {
+        "authors": {
             "items": {
                 "type": "string"
             },
             "type": "array",
             "uniqueItems": true
         },
-	"uuid": {
-	    "type": "string"
-	},
-	"label": {
-	    "type": "string"
-	},
-	"description": {
-	    "type": "string"
-	},
-	"mode": {
-	    "type": "integer",
-	    "default": 1
-	},
-	"type": {
-	    "type": "integer",
-	    "default": 1
-	},
-	"code": {
-	    "type": "string"
-	},
-	"version": {
-	    "type": "integer"
-	}
+        "code": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "label": {
+            "type": "string"
+        },
+        "language": {
+            "default": "EN",
+            "oneOf": [
+                {
+                    "pattern": "^[A-Z]{2}$",
+                    "type": "string"
+                }
+            ],
+            "type": "string"
+        },
+        "type": {
+            "enum": [
+                "Primary",
+                "Secondary"
+            ],
+            "type": "string"
+        },
+        "uuid": {
+            "type": "string"
+        },
+        "version": {
+            "type": "integer"
+        }
     },
     "required": [
-	"uuid",
-	"label",
-	"description",
-	"code",
-	"version"
-    ]
+        "uuid",
+        "code",
+        "label",
+        "description",
+        "type",
+        "version"
+    ],
+    "title": "Validator for assets used in MONARC",
+    "type": "object"
 }
