@@ -3,6 +3,10 @@
     "additionalProperties": false,
     "id": "",
     "properties": {
+        "asset": {
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+            "type": "string"
+        },
         "authors": {
             "items": {
                 "type": "string"
@@ -10,18 +14,20 @@
             "type": "array",
             "uniqueItems": true
         },
+        "threat": {
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+            "type": "string"
+        },
         "uuid": {
             "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
             "type": "string"
         },
-        "asset": {
-            "#ref": "https://objects.monarc.lu/schema/1#"
-        },
-        "threat": {
-            "#ref": "https://objects.monarc.lu/schema/15#"
+        "version": {
+            "type": "integer"
         },
         "vulnerability": {
-            "#ref": "https://objects.monarc.lu/schema/14#"
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+            "type": "string"
         }
     },
     "required": [
