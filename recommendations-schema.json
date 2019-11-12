@@ -1,0 +1,80 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "additionalProperties": false,
+    "defs": {
+        "non-empty-string": {
+            "minLength": 1,
+            "type": "string"
+        }
+    },
+    "properties": {
+        "authors": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+        },
+        "label": {
+            "type": "string"
+        },
+        "language": {
+            "default": "EN",
+            "oneOf": [
+                {
+                    "pattern": "^[A-Z]{2}$",
+                    "type": "string"
+                }
+            ],
+            "type": "string"
+        },
+        "recommandations": {
+            "items": {
+                "properties": {
+                    "code": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "importance": {
+                        "maximum": 3,
+                        "minimum": 1,
+                        "type": "integer"
+                    },
+                    "uuid": {
+                        "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "required": [
+                "uuid",
+                "code",
+                "description"
+            ],
+            "type": "array",
+            "uniqueItems": true
+        },
+        "refs": {
+            "items": {
+                "$ref": "#/defs/non-empty-string"
+            },
+            "minItems": 1,
+            "type": "array",
+            "uniqueItems": true
+        },
+        "uuid": {
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+            "type": "string"
+        }
+    },
+    "required": [
+        "uuid",
+        "label",
+        "recommandations"
+    ],
+    "title": "Validator for recommendations sets used in MONARC",
+    "type": "object"
+}
