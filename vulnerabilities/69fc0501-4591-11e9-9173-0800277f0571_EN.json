@@ -1,0 +1,1 @@
+{"code": "1174", "description": "Is there a backup procedure?\nIs it formal?\nIs it exhaustive?\nHow long is the storage period?\nAre recovery tests performed?\nIs there an offline copy? An outsourced copy?", "label": "Backups are not carried out in accordance with the state of the art", "mode": 0, "status": 1, "uuid": "69fc0501-4591-11e9-9173-0800277f0571"}
