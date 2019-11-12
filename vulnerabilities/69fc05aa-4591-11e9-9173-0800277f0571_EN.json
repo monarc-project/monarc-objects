@@ -1,0 +1,1 @@
+{"code": "1212", "description": "Are the accounts with privileges listed?\nAre passwords stored?\nAre they regularly reviewed?\nAre rights managed by user profile/role?", "label": "Flaws in the management or use of accounts with privileges", "mode": 0, "status": 1, "uuid": "69fc05aa-4591-11e9-9173-0800277f0571"}
