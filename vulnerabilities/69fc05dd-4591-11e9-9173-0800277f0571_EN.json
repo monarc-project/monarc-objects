@@ -1,0 +1,1 @@
+{"code": "1217", "description": "Are production data sensitive?\nAre they used for tests? Are they destroyed after the tests?\nCan data be duplicated or copied?", "label": "Production data are used for tests or development", "mode": 0, "status": 1, "uuid": "69fc05dd-4591-11e9-9173-0800277f0571"}
