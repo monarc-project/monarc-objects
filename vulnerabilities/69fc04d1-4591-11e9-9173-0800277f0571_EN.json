@@ -1,0 +1,1 @@
+{"code": "1167", "description": "Is there a password policy?\nAre there good practices (length, complexity, change, etc.)?\nIs there one account per person?\nAre there shared accounts?", "label": "User authentication is not ensured", "mode": 0, "status": 1, "uuid": "69fc04d1-4591-11e9-9173-0800277f0571"}
