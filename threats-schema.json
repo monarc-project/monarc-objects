@@ -4,8 +4,8 @@
     "id": "",
     "properties": {
         "a": {
-            "default": false,
-            "type": "boolean"
+            "default": 1,
+            "type": ["boolean", "number"]
         },
         "authors": {
             "items": {
@@ -15,8 +15,8 @@
             "uniqueItems": true
         },
         "c": {
-            "default": false,
-            "type": "boolean"
+            "default": 1,
+            "type": ["boolean", "number"]
         },
         "code": {
             "type": "string"
@@ -25,8 +25,8 @@
             "type": "string"
         },
         "i": {
-            "default": false,
-            "type": "boolean"
+            "default": 1,
+            "type": ["boolean", "number"]
         },
         "label": {
             "type": "string"
