@@ -1,6 +1,7 @@
 #!/bin/bash
 
 set -e
+set -x
 
 for f in *; do
     if [[ -d $f ]]; then
