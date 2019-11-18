@@ -6,9 +6,11 @@ for f in *; do
     if [[ -d $f ]]; then
         for object in $f/*.json
         do
-	    echo -n "${f}: "
+            echo -n "${f}: "
             jsonschema -i ${object} $f-schema.json
-	    echo ''
+            echo ''
         done
     fi
 done
+
+./unique_uuid.py
