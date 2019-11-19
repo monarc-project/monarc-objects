@@ -28,7 +28,7 @@
             ],
             "type": "string"
         },
-        "recommandations": {
+        "recommendations": {
             "items": {
                 "properties": {
                     "code": {
@@ -73,7 +73,7 @@
     "required": [
         "uuid",
         "label",
-        "recommandations"
+        "recommendations"
     ],
     "title": "Validator for recommendations sets used in MONARC",
     "type": "object"
