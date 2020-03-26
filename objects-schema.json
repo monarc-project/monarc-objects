@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "additionalProperties": false,
+    "id": "",
+    "definitions": {
+        "asset": {
+            "$ref": "https://raw.githubusercontent.com/monarc-project/monarc-objects/master/assets-schema.json"
+        },
+        "threat": {
+            "$ref": "https://raw.githubusercontent.com/monarc-project/monarc-objects/master/threats-schema.json"
+        }
+    },
+    "properties": {
+        "uuid": {
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+            "type": "string"
+        },
+        "version": {
+            "type": "integer"
+        },
+        "asset": {
+            "type": "object",
+            "$ref": "#/definitions/asset"
+        },
+        "threat": {
+            "type": "object",
+            "$ref": "#/definitions/threat"
+        }
+    },
+    "required": [
+        "uuid",
+        "asset",
+        "version"
+    ],
+    "title": "Validator for objects used in MONARC",
+    "type": "object"
+}
