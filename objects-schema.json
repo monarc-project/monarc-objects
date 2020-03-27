@@ -4,10 +4,10 @@
     "id": "",
     "definitions": {
         "asset": {
-            "$ref": "https://raw.githubusercontent.com/monarc-project/monarc-objects/master/assets-schema.json"
+            "$ref": "https://objects.monarc.lu/schema/def/1"
         },
         "threat": {
-            "$ref": "https://raw.githubusercontent.com/monarc-project/monarc-objects/master/threats-schema.json"
+            "$ref": "https://objects.monarc.lu/schema/def/15"
         }
     },
     "properties": {
@@ -30,6 +30,7 @@
     "required": [
         "uuid",
         "asset",
+        "threat",
         "version"
     ],
     "title": "Validator for objects used in MONARC",
