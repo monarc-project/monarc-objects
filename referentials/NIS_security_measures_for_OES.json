@@ -1,6 +1,6 @@
 {
     "label": "NIS security measures for OES",
-    "measures": [
+    "values": [
         {
             "category": "Information System Security Governance & Risk Management",
             "code": "1.1.1",
@@ -183,5 +183,5 @@
         }
     ],
     "uuid": "3f4a2a67-a1f9-46e1-8d71-7f6486217bb7",
-    "version": "1.0"
+    "version": 1
 }

@@ -1,6 +1,7 @@
 {
     "label": "NIS security measures - NIST Core",
-    "measures": [
+    "uuid": "9f6e74bb-c643-4654-bc6d-76dcab49c357",
+    "values": [
         {
             "control": "030ef936-d0fe-4d6b-9238-e3004f58f7b6",
             "match": "d2e86e2d-5bec-42a2-b642-69995b6abcf0"
@@ -361,5 +362,6 @@
             "control": "e1a91f54-34e4-45c7-8eae-dfc6dee15854",
             "match": "e4380999-3c82-4b85-86cd-86f1f37f97ab"
         }
-    ]
+    ],
+    "version": 1
 }

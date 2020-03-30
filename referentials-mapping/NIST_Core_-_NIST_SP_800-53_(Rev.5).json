@@ -1,6 +1,10 @@
 {
     "label": "NIST Core - NIST SP 800-53 (Rev.5)",
-    "measures": [
+    "refs": [
+        "https://www.nist.gov/cyberframework/framework"
+    ],
+    "uuid": "39e559bb-2365-4455-b220-517e129992ef",
+    "values": [
         {
             "control": "231fc2b1-80c2-450e-9d80-f804f5a8984c",
             "match": "36ae972c-4543-4548-8946-47cb651ed0ef"
@@ -2041,5 +2045,6 @@
             "control": "c8de5e1f-7893-42b3-852d-fa4f79bc68fa",
             "match": "3e0e9ea8-db9d-4825-b76a-17859f2f8e67"
         }
-    ]
+    ],
+    "version": 1
 }

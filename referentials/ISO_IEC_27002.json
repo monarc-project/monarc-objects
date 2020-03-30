@@ -1,6 +1,6 @@
 {
     "label": "ISO/IEC 27002",
-    "measures": [
+    "values": [
         {
             "category": "Information security policies",
             "code": "5.1.1",
@@ -687,5 +687,5 @@
         }
     ],
     "uuid": "98ca84fb-db87-11e8-ac77-0800279aaa2b",
-    "version": "1.0"
+    "version": 1
 }

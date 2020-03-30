@@ -1,6 +1,6 @@
 {
     "label": "NIST SP 800-53",
-    "measures": [
+    "values": [
         {
             "category": "Access Control",
             "code": "AC-1",
@@ -1659,5 +1659,5 @@
         }
     ],
     "uuid": "cfd2cd50-95fa-4143-b0e5-794249bacae1",
-    "version": "5.0"
+    "version": 5
 }

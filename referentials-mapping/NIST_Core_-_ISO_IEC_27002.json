@@ -1,6 +1,10 @@
 {
     "label": "NIST - ISO/IEC 27002",
-    "measures": [
+    "refs": [
+        "https://www.nist.gov/cyberframework/framework"
+    ],
+    "uuid": "47c88411-1870-4b86-99e9-6e2325a28559",
+    "values": [
         {
             "control": "231fc2b1-80c2-450e-9d80-f804f5a8984c",
             "match": "267fc90c-f705-11e8-b555-0800279aaa2b"
@@ -1117,5 +1121,6 @@
             "control": "771e3059-9eb4-4313-94b4-f0e8fa102498",
             "match": "267fc80f-f705-11e8-b555-0800279aaa2b"
         }
-    ]
+    ],
+    "version": 1
 }

@@ -1,67 +1,22 @@
 {
     "$schema": "http://json-schema.org/schema#",
-    "title": "Validator for referentials used in MONARC",
-    "type": "object",
     "additionalProperties": false,
     "defs": {
         "non-empty-string": {
-            "type": "string",
-            "minLength": 1
+            "minLength": 1,
+            "type": "string"
         }
     },
     "properties": {
-        "uuid": {
-            "type": "string",
-            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
+        "authors": {
+            "items": {
+                "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
         },
         "label": {
             "type": "string"
-        },
-        "version": {
-            "type": "string"
-        },
-        "authors": {
-            "type": "array",
-            "uniqueItems": true,
-            "items": {
-                "type": "string"
-            }
-        },
-        "measures": {
-            "uniqueItems": true,
-            "type": "array",
-            "items": {
-                "type": "object",
-                "properties": {
-                    "uuid": {
-                        "type": "string",
-                        "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"
-                    },
-                    "label": {
-                        "type": "string"
-                    },
-                    "category": {
-                        "type": "string"
-                    },
-                    "code": {
-                        "type": "string"
-                    }
-                }
-            },
-            "required": [
-                "uuid",
-                "label",
-                "category",
-                "code"
-            ]
-        },
-        "refs": {
-            "type": "array",
-            "minItems": 1,
-            "uniqueItems": true,
-            "items": {
-                "$ref": "#/defs/non-empty-string"
-            }
         },
         "language": {
             "default": "EN",
@@ -73,18 +28,59 @@
             ],
             "type": "string"
         },
-        "authors": {
-            "type": "array",
-            "uniqueItems": true,
+        "refs": {
             "items": {
-                "type": "string"
-            }
+                "$ref": "#/defs/non-empty-string"
+            },
+            "minItems": 1,
+            "type": "array",
+            "uniqueItems": true
+        },
+        "uuid": {
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+            "type": "string"
+        },
+        "values": {
+            "items": {
+                "properties": {
+                    "category": {
+                        "type": "string"
+                    },
+                    "code": {
+                        "type": "string"
+                    },
+                    "label": {
+                        "type": "string"
+                    },
+                    "uuid": {
+                        "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "required": [
+                "uuid",
+                "label",
+                "category",
+                "code"
+            ],
+            "type": "array",
+            "uniqueItems": true
+        },
+        "version": {
+            "type": "integer"
+        },
+        "version_ext": {
+            "type": "string"
         }
     },
     "required": [
         "uuid",
         "label",
         "version",
-        "measures"
-    ]
+        "values"
+    ],
+    "title": "Validator for referentials used in MONARC",
+    "type": "object"
 }

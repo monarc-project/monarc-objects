@@ -1,6 +1,7 @@
 {
     "label": "NIS security measures - ISO/IEC 27002",
-    "measures": [
+    "uuid": "f461053a-ab34-42a6-80cd-83a140b06de1",
+    "values": [
         {
             "control": "02527779-a76f-42fc-b420-6726099d4241",
             "match": "267fc596-f705-11e8-b555-0800279aaa2b"
@@ -433,5 +434,6 @@
             "control": "f87f15fe-0170-4164-90de-091d9519d140",
             "match": "267fea72-f705-11e8-b555-0800279aaa2b"
         }
-    ]
+    ],
+    "version": 1
 }

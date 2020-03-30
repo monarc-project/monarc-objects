@@ -1,6 +1,10 @@
 {
-    "label": "",
-    "measures": [
+    "label": "NIST SP 800-53 (Rev.5) - ISO/IEC 27002",
+    "refs": [
+        "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/draft"
+    ],
+    "uuid": "5696c21b-4b52-4230-be0c-89352b8c9baa",
+    "values": [
         {
             "control": "ebf10522-0f57-4880-aa73-e28a206b7be4",
             "match": "267fc596-f705-11e8-b555-0800279aaa2b"
@@ -2017,5 +2021,6 @@
             "control": "5c1413f5-14f3-48bc-b371-5fda85e52cb8",
             "match": "267fe3de-f705-11e8-b555-0800279aaa2b"
         }
-    ]
+    ],
+    "version": 1
 }

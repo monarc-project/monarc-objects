@@ -3,7 +3,7 @@
         "The MONARC project"
     ],
     "label": "NIST Core",
-    "measures": [
+    "values": [
         {
             "category": "Asset Management (ID.AM)",
             "code": "1_ID.AM-1",
@@ -654,5 +654,5 @@
         }
     ],
     "uuid": "fcf78560-3d12-42ba-8f4a-5761ca02ac94",
-    "version": "1.1"
+    "version": 2
 }

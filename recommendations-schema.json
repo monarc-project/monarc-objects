@@ -28,7 +28,19 @@
             ],
             "type": "string"
         },
-        "recommendations": {
+        "refs": {
+            "items": {
+                "$ref": "#/defs/non-empty-string"
+            },
+            "minItems": 1,
+            "type": "array",
+            "uniqueItems": true
+        },
+        "uuid": {
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+            "type": "string"
+        },
+        "values": {
             "items": {
                 "properties": {
                     "code": {
@@ -57,23 +69,15 @@
             "type": "array",
             "uniqueItems": true
         },
-        "refs": {
-            "items": {
-                "$ref": "#/defs/non-empty-string"
-            },
-            "minItems": 1,
-            "type": "array",
-            "uniqueItems": true
-        },
-        "uuid": {
-            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
-            "type": "string"
+        "version": {
+            "type": "integer"
         }
     },
     "required": [
         "uuid",
         "label",
-        "recommendations"
+        "version",
+        "values"
     ],
     "title": "Validator for recommendations sets used in MONARC",
     "type": "object"
