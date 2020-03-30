@@ -8,31 +8,50 @@
         },
         "threat": {
             "$ref": "https://objects.monarc.lu/schema/def/15"
+        },
+        "vulnerability": {
+            "$ref": "https://objects.monarc.lu/schema/def/14"
+        },
+        "object": {
+            "type": "object",
+            "properties": {
+                "uuid": {
+                    "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+                    "type": "string"
+                },
+                "version": {
+                    "type": "integer"
+                },
+                "asset": {
+                    "type": "object",
+                    "$ref": "#/definitions/asset"
+                },
+                "threat": {
+                    "type": "object",
+                    "$ref": "#/definitions/threat"
+                },
+                "children": {
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/object" },
+                    "default": []
+                }
+            },
+            "required": [
+                "uuid",
+                "asset",
+                "threat",
+                "vulnerability",
+                "version",
+                "children"
+            ]
         }
     },
+    "type": "object",
     "properties": {
-        "uuid": {
-            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
-            "type": "string"
-        },
-        "version": {
-            "type": "integer"
-        },
-        "asset": {
-            "type": "object",
-            "$ref": "#/definitions/asset"
-        },
-        "threat": {
-            "type": "object",
-            "$ref": "#/definitions/threat"
-        }
+        "object": { "$ref": "#/definitions/object" }
     },
     "required": [
-        "uuid",
-        "asset",
-        "threat",
-        "version"
+        "object"
     ],
-    "title": "Validator for objects used in MONARC",
-    "type": "object"
+    "title": "Validator for objects used in MONARC"
 }
