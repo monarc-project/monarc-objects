@@ -1,16 +1,16 @@
 {
     "$schema": "http://json-schema.org/schema#",
+    "id": "https://objects.monarc.lu/schema/def/590a6cc3-4bf9-4fe4-880f-c50530a990b9",
     "additionalProperties": false,
-    "id": "",
     "definitions": {
         "asset": {
-            "$ref": "https://objects.monarc.lu/schema/def/1"
+            "$ref": "https://objects.monarc.lu/schema/def/76315a94-50a4-4358-a844-f5eae7e7e141"
         },
         "threat": {
-            "$ref": "https://objects.monarc.lu/schema/def/15"
+            "$ref": "https://objects.monarc.lu/schema/def/9b9e44b1-a943-4f95-b0c3-df1015063a10"
         },
         "vulnerability": {
-            "$ref": "https://objects.monarc.lu/schema/def/14"
+            "$ref": "https://objects.monarc.lu/schema/def/023efe2b-5f7f-43c0-b858-97877b5a1f75"
         },
         "object": {
             "type": "object",
