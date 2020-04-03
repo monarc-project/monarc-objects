@@ -22,6 +22,12 @@
                 "version": {
                     "type": "integer"
                 },
+                "label": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
                 "asset": {
                     "type": "object",
                     "$ref": "#/definitions/asset"
@@ -42,6 +48,8 @@
             },
             "required": [
                 "uuid",
+                "label",
+                "description",
                 "asset",
                 "threat",
                 "vulnerability",
