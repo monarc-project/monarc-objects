@@ -1,10 +1,10 @@
 {
     "$schema": "http://json-schema.org/schema#",
+    "$id": "http://127.0.0.1:5000/schema/def/308deb4c-0249-43ed-9f6f-f5c60b630d8f",
     "additionalProperties": false,
-    "defs": {
-        "non-empty-string": {
-            "minLength": 1,
-            "type": "string"
+    "definitions": {
+        "measure": {
+            "$ref": "https://objects.monarc.lu/schema/def/3777ff96-2d37-4ad2-8789-7aa3417b6312"
         }
     },
     "properties": {
@@ -12,8 +12,7 @@
             "items": {
                 "type": "string"
             },
-            "type": "array",
-            "uniqueItems": true
+            "type": "array"
         },
         "label": {
             "type": "string"
@@ -30,33 +29,20 @@
         },
         "refs": {
             "items": {
-                "$ref": "#/defs/non-empty-string"
+                "type": "string"
             },
-            "minItems": 1,
-            "type": "array",
-            "uniqueItems": true
+            "minItems": 1
         },
         "uuid": {
             "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
             "type": "string"
         },
         "values": {
-            "measures": {
-                "items": {
-                    "type": "object",
-                    "$ref": "#/definitions/measure"
-                },
-                "type": "array"
+            "items": {
+                "type": "object",
+                "$ref": "#/definitions/measure"
             },
-        },
-            "required": [
-                "uuid",
-                "label",
-                "category",
-                "code"
-            ],
-            "type": "array",
-            "uniqueItems": true
+            "type": "array"
         },
         "version": {
             "type": "integer"
