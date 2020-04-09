@@ -48,8 +48,7 @@
                         "type": "object",
                         "$ref": "#/definitions/measure"
                     },
-                    "type": "array",
-                    "uniqueItems": true
+                    "type": "array"
                 },
                 "children": {
                     "type": "array",

@@ -7,8 +7,7 @@
             "items": {
                 "type": "string"
             },
-            "type": "array",
-            "uniqueItems": true
+            "type": "array"
         },
         "label": {
             "type": "string"
@@ -34,8 +33,7 @@
                 "type": "string"
             },
             "minItems": 1,
-            "type": "array",
-            "uniqueItems": true
+            "type": "array"
         },
         "uuid": {
             "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
