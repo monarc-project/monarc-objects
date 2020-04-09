@@ -12,6 +12,9 @@
         "vulnerability": {
             "$ref": "https://objects.monarc.lu/schema/def/023efe2b-5f7f-43c0-b858-97877b5a1f75"
         },
+        "measure": {
+            "$ref": "https://objects.monarc.lu/schema/def/3777ff96-2d37-4ad2-8789-7aa3417b6312"
+        },
         "object": {
             "type": "object",
             "properties": {
@@ -39,6 +42,14 @@
                 "vulnerability": {
                     "type": "object",
                     "$ref": "#/definitions/vulnerability"
+                },
+                "measures": {
+                    "items": {
+                        "type": "object",
+                        "$ref": "#/definitions/measure"
+                    },
+                    "type": "array",
+                    "uniqueItems": true
                 },
                 "children": {
                     "type": "array",
