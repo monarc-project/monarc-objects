@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/schema#",
-    "id": "https://objects.monarc.lu/schema/def/590a6cc3-4bf9-4fe4-880f-c50530a990b9",
+    "$id": "https://objects.monarc.lu/schema/def/590a6cc3-4bf9-4fe4-880f-c50530a990b9",
     "additionalProperties": false,
     "definitions": {
         "asset": {
