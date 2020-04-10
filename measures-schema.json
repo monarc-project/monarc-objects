@@ -48,8 +48,7 @@
         "uuid",
         "label",
         "category",
-        "code",
-        "version"
+        "code"
     ],
     "type": "object"
 }
