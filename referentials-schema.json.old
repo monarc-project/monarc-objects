@@ -1,12 +1,8 @@
 {
     "$schema": "http://json-schema.org/schema#",
     "$id": "http://127.0.0.1:5000/schema/def/308deb4c-0249-43ed-9f6f-f5c60b630d8f",
+    "title": "Validator for referentials used in MONARC",
     "additionalProperties": false,
-    "definitions": {
-        "measure": {
-            "$ref": "https://objects.monarc.lu/schema/def/3777ff96-2d37-4ad2-8789-7aa3417b6312"
-        }
-    },
     "properties": {
         "authors": {
             "items": {
@@ -39,9 +35,29 @@
         },
         "values": {
             "items": {
-                "type": "object",
-                "$ref": "#/definitions/measure"
+                "properties": {
+                    "category": {
+                        "type": "string"
+                    },
+                    "code": {
+                        "type": "string"
+                    },
+                    "label": {
+                        "type": "string"
+                    },
+                    "uuid": {
+                        "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+                        "type": "string"
+                    }
+                },
+                "type": "object"
             },
+            "required": [
+                "uuid",
+                "label",
+                "category",
+                "code"
+            ],
             "type": "array"
         },
         "version": {
@@ -57,6 +73,5 @@
         "version",
         "values"
     ],
-    "title": "Validator for referentials used in MONARC",
     "type": "object"
 }
