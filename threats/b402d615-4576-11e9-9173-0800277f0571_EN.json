@@ -1,1 +1,1 @@
-{"a": 1, "c": 0, "code": "MDA28", "description": "Absence of qualified or authorised personnel to execute the usual operations", "i": 0, "label": "Breach of personnel availability", "language": "EN", "theme": "Compromise of functions", "uuid": "b402d615-4576-11e9-9173-0800277f0571"}
+{"a": true, "c": false, "code": "MDA28", "description": "Absence of qualified or authorised personnel to execute the usual operations", "i": false, "label": "Breach of personnel availability", "language": "EN", "theme": "Compromise of functions", "uuid": "b402d615-4576-11e9-9173-0800277f0571"}

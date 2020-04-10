@@ -1,1 +1,1 @@
-{"a": 1, "c": 1, "code": "MA11", "description": "Jemand begeht einen Bedienungs-, Eingabe- oder Benutzungsfehler (Hard- oder Software).\n", "i": 1, "label": "Benutzungsfehler", "language": "DE", "theme": "Infragestellung von Funktionen", "uuid": "b402d4e0-4576-11e9-9173-0800277f0571"}
+{"a": true, "c": true, "code": "MA11", "description": "Jemand begeht einen Bedienungs-, Eingabe- oder Benutzungsfehler (Hard- oder Software).\n", "i": true, "label": "Benutzungsfehler", "language": "DE", "theme": "Infragestellung von Funktionen", "uuid": "b402d4e0-4576-11e9-9173-0800277f0571"}

@@ -1,1 +1,1 @@
-{"a": 0, "c": 1, "code": "MDA20", "description": "Eine Person, welche bewusst oder unbewusst Informationen verbreitet.\n", "i": 0, "label": "Verbreitung", "language": "DE", "theme": "Infragestellung von Informationen", "uuid": "b402d600-4576-11e9-9173-0800277f0571"}
+{"a": false, "c": true, "code": "MDA20", "description": "Eine Person, welche bewusst oder unbewusst Informationen verbreitet.\n", "i": false, "label": "Verbreitung", "language": "DE", "theme": "Infragestellung von Informationen", "uuid": "b402d600-4576-11e9-9173-0800277f0571"}

@@ -1,1 +1,1 @@
-{"a": 1, "c": 0, "code": "MA16", "description": "Logical or physical event causing hardware malfunctions or failures.", "i": 1, "label": "Equipment malfunction or failure", "language": "EN", "theme": "Technical failures", "uuid": "b402d523-4576-11e9-9173-0800277f0571"}
+{"a": true, "c": false, "code": "MA16", "description": "Logical or physical event causing hardware malfunctions or failures.", "i": true, "label": "Equipment malfunction or failure", "language": "EN", "theme": "Technical failures", "uuid": "b402d523-4576-11e9-9173-0800277f0571"}
