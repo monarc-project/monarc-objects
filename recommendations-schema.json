@@ -1,12 +1,6 @@
 {
     "$schema": "http://json-schema.org/schema#",
     "additionalProperties": false,
-    "defs": {
-        "non-empty-string": {
-            "minLength": 1,
-            "type": "string"
-        }
-    },
     "properties": {
         "authors": {
             "items": {
@@ -30,11 +24,10 @@
         },
         "refs": {
             "items": {
-                "$ref": "#/defs/non-empty-string"
+                "type": "string"
             },
             "minItems": 1,
-            "type": "array",
-            "uniqueItems": true
+            "type": "array"
         },
         "uuid": {
             "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
