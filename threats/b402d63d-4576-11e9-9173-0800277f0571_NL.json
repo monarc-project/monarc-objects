@@ -1,1 +1,1 @@
-{"a": 1, "c": 0, "code": "ME11", "description": "Iedere situatie die kan leiden tot het vuur vatten van een plaats of een stuk hardware.", "i": 1, "label": "Brand", "language": "NL", "theme": "Fysieke schade", "uuid": "b402d63d-4576-11e9-9173-0800277f0571"}
+{"a": true, "c": false, "code": "ME11", "description": "Iedere situatie die kan leiden tot het vuur vatten van een plaats of een stuk hardware.", "i": true, "label": "Brand", "language": "NL", "theme": "Fysieke schade", "uuid": "b402d63d-4576-11e9-9173-0800277f0571"}

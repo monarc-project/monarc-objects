@@ -1,14 +1,14 @@
 {
+    "$id": "https://objects.monarc.lu/schema/def/023efe2b-5f7f-43c0-b858-97877b5a1f75",
+    "title": "Validator for vulnerabilities used in MONARC",
     "$schema": "http://json-schema.org/schema#",
     "additionalProperties": false,
-    "id": "",
     "properties": {
         "authors": {
             "items": {
                 "type": "string"
             },
-            "type": "array",
-            "uniqueItems": true
+            "type": "array"
         },
         "code": {
             "type": "string"
@@ -47,6 +47,5 @@
         "code",
         "label"
     ],
-    "title": "Validator for vulnerabilities used in MONARC",
     "type": "object"
 }

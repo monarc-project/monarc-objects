@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/schema#",
     "$id": "https://objects.monarc.lu/schema/def/590a6cc3-4bf9-4fe4-880f-c50530a990b9",
+    "title": "Validator for objects used in MONARC",
     "additionalProperties": false,
     "definitions": {
         "asset": {
@@ -74,6 +75,5 @@
     },
     "required": [
         "object"
-    ],
-    "title": "Validator for objects used in MONARC"
+    ]
 }

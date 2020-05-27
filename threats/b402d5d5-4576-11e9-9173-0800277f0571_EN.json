@@ -1,1 +1,1 @@
-{"a": 1, "c": 1, "code": "MDA13", "description": "Unwanted software that is doing operations seeking to harm the company.", "i": 1, "label": "Malware infection", "language": "EN", "theme": "Compromise of information", "uuid": "b402d5d5-4576-11e9-9173-0800277f0571"}
+{"a": true, "c": true, "code": "MDA13", "description": "Unwanted software that is doing operations seeking to harm the company.", "i": true, "label": "Malware infection", "language": "EN", "theme": "Compromise of information", "uuid": "b402d5d5-4576-11e9-9173-0800277f0571"}

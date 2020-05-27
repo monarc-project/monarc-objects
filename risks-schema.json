@@ -1,5 +1,6 @@
 {
     "$schema": "http://json-schema.org/schema#",
+    "title": "Validator for risks used in MONARC",
     "additionalProperties": false,
     "id": "",
     "properties": {
@@ -36,6 +37,5 @@
         "threat",
         "vulnerability"
     ],
-    "title": "Validator for risks used in MONARC",
     "type": "object"
 }

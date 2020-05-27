@@ -1,12 +1,7 @@
 {
-    "$id": "http://example.com/root.json",
-    "$schema": "http://json-schema.org/draft-07/schema#",
-    "defs": {
-        "non-empty-string": {
-            "minLength": 1,
-            "type": "string"
-        }
-    },
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "https://objects.monarc.lu/schema/def/24d133a5-fab5-4be6-b455-55068cee7a28",
+    "title": "Mappings between measures of two security referentials.",
     "properties": {
         "label": {
             "default": "",
@@ -19,11 +14,10 @@
         },
         "refs": {
             "items": {
-                "$ref": "#/defs/non-empty-string"
+                "type": "string"
             },
             "minItems": 1,
-            "type": "array",
-            "uniqueItems": true
+            "type": "array"
         },
         "uuid": {
             "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
@@ -75,6 +69,5 @@
         "label",
         "values"
     ],
-    "title": "The Root Schema",
     "type": "object"
 }

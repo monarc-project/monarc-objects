@@ -1,1 +1,1 @@
-{"a": 1, "c": 0, "code": "ME11", "description": "Any situation that could facilitate the conflagration of premises or equipment.", "i": 1, "label": "Fire", "language": "EN", "theme": "Physical damage", "uuid": "b402d63d-4576-11e9-9173-0800277f0571"}
+{"a": true, "c": false, "code": "ME11", "description": "Any situation that could facilitate the conflagration of premises or equipment.", "i": true, "label": "Fire", "language": "EN", "theme": "Physical damage", "uuid": "b402d63d-4576-11e9-9173-0800277f0571"}

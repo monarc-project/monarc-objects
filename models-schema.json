@@ -1,11 +1,17 @@
 {
     "$schema": "http://json-schema.org/schema#",
-    "$id": "https://objects.monarc.lu/schema/def/308deb4c-0249-43ed-9f6f-f5c60b630d8f",
-    "title": "Validator for referentials used in MONARC",
+    "$id": "https://objects.monarc.lu/schema/def/83bd1a3f-d36b-4225-aa96-7da07a8b7b38",
+    "title": "Validator for models (anr) used in MONARC",
     "additionalProperties": false,
     "definitions": {
+        "referential": {
+            "$ref": "https://objects.monarc.lu/schema/def/308deb4c-0249-43ed-9f6f-f5c60b630d8f"
+        },
         "measure": {
             "$ref": "https://objects.monarc.lu/schema/def/3777ff96-2d37-4ad2-8789-7aa3417b6312"
+        },
+        "measure-mapping": {
+            "$ref": "https://objects.monarc.lu/schema/def/24d133a5-fab5-4be6-b455-55068cee7a28"
         }
     },
     "properties": {
@@ -28,35 +34,32 @@
             ],
             "type": "string"
         },
-        "refs": {
+        "referentials": {
             "items": {
-                "type": "string"
+                "type": "object",
+                "$ref": "#/definitions/referential"
             },
-            "minItems": 1
+            "type": "array"
         },
-        "uuid": {
-            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
-            "type": "string"
-        },
-        "values": {
+        "measures": {
             "items": {
                 "type": "object",
                 "$ref": "#/definitions/measure"
             },
             "type": "array"
         },
-        "version": {
-            "type": "integer"
-        },
-        "version_ext": {
-            "type": "string"
+        "measures-mapping": {
+            "items": {
+                "type": "object",
+                "$ref": "#/definitions/measure-mapping"
+            },
+            "type": "array"
         }
     },
     "required": [
-        "uuid",
         "label",
-        "version",
-        "values"
+        "language",
+        "version"
     ],
     "type": "object"
 }

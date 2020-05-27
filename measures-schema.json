@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/schema#",
     "$id": "https://objects.monarc.lu/schema/def/3777ff96-2d37-4ad2-8789-7aa3417b6312",
+    "title": "Validator for measure used in MONARC",
     "additionalProperties": false,
     "properties": {
         "authors": {
@@ -47,9 +48,7 @@
         "uuid",
         "label",
         "category",
-        "code",
-        "version"
+        "code"
     ],
-    "title": "Validator for measure used in MONARC",
     "type": "object"
 }

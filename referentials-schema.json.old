@@ -1,19 +1,14 @@
 {
     "$schema": "http://json-schema.org/schema#",
+    "$id": "http://127.0.0.1:5000/schema/def/308deb4c-0249-43ed-9f6f-f5c60b630d8f",
+    "title": "Validator for referentials used in MONARC",
     "additionalProperties": false,
-    "defs": {
-        "non-empty-string": {
-            "minLength": 1,
-            "type": "string"
-        }
-    },
     "properties": {
         "authors": {
             "items": {
                 "type": "string"
             },
-            "type": "array",
-            "uniqueItems": true
+            "type": "array"
         },
         "label": {
             "type": "string"
@@ -30,33 +25,40 @@
         },
         "refs": {
             "items": {
-                "$ref": "#/defs/non-empty-string"
+                "type": "string"
             },
-            "minItems": 1,
-            "type": "array",
-            "uniqueItems": true
+            "minItems": 1
         },
         "uuid": {
             "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
             "type": "string"
         },
         "values": {
-            "measures": {
-                "items": {
-                    "type": "object",
-                    "$ref": "#/definitions/measure"
+            "items": {
+                "properties": {
+                    "category": {
+                        "type": "string"
+                    },
+                    "code": {
+                        "type": "string"
+                    },
+                    "label": {
+                        "type": "string"
+                    },
+                    "uuid": {
+                        "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+                        "type": "string"
+                    }
                 },
-                "type": "array"
+                "type": "object"
             },
-        },
             "required": [
                 "uuid",
                 "label",
                 "category",
                 "code"
             ],
-            "type": "array",
-            "uniqueItems": true
+            "type": "array"
         },
         "version": {
             "type": "integer"
@@ -71,6 +73,5 @@
         "version",
         "values"
     ],
-    "title": "Validator for referentials used in MONARC",
     "type": "object"
 }
