@@ -6,8 +6,7 @@
             "items": {
                 "type": "string"
             },
-            "type": "array",
-            "uniqueItems": true
+            "type": "array"
         },
         "label": {
             "type": "string"
@@ -44,7 +43,7 @@
                     },
                     "importance": {
                         "maximum": 3,
-                        "minimum": 1,
+                        "minimum": 0,
                         "type": "integer"
                     },
                     "uuid": {
@@ -63,7 +62,7 @@
             "uniqueItems": true
         },
         "version": {
-            "type": "integer"
+            "type": "number"
         }
     },
     "required": [
