@@ -1,0 +1,649 @@
+{
+    "object": {
+        "asset": {
+            "amvs": [],
+            "asset": {
+                "code": "CONT",
+                "description": "Conteneur d'actifs",
+                "label": "Conteneur",
+                "language": "FR",
+                "type": "Primary",
+                "uuid": "d2023c8f-44d1-11e9-a78c-0800277f0571",
+                "version": 1
+            },
+            "measures": [],
+            "threats": [],
+            "vuls": []
+        },
+        "children": [
+            {
+                "asset": {
+                    "amvs": [
+                        {
+                            "asset": "4447ebac-6831-4617-a653-4aedfe235faf",
+                            "threat": "b402d5f5-4576-11e9-9173-0800277f0571",
+                            "uuid": "26c8f378-14a7-4dda-885e-4e371ce0ed99",
+                            "vulnerability": "69fc01e7-4591-11e9-9173-0800277f0571"
+                        }
+                    ],
+                    "asset": {
+                        "code": "OV_IOT_ACTUATORS",
+                        "description": "",
+                        "label": "IoT - Actionneurs",
+                        "language": "FR",
+                        "type": "Secondary",
+                        "uuid": "4447ebac-6831-4617-a653-4aedfe235faf",
+                        "version": 1
+                    },
+                    "measures": [],
+                    "threats": [
+                        {
+                            "a": false,
+                            "c": false,
+                            "code": "MDA18",
+                            "description": "R\u00e9ception et exploitation dans le syst\u00e8me d'information de l'organisme de donn\u00e9es erron\u00e9es ou de mat\u00e9riels non adapt\u00e9s provenant de sources ext\u00e9rieures.",
+                            "i": true,
+                            "label": "Information sans garantie de l'origine",
+                            "language": "FR",
+                            "theme": "Compromission des informations",
+                            "uuid": "b402d5f5-4576-11e9-9173-0800277f0571"
+                        }
+                    ],
+                    "vuls": [
+                        {
+                            "code": "1094",
+                            "description": "",
+                            "label": "Le syst\u00e8me permet l'\u00e9mission et la r\u00e9ception d'information sans authentification des \u00e9metteurs ni des destinataires",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc01e7-4591-11e9-9173-0800277f0571"
+                        }
+                    ]
+                },
+                "children": [],
+                "object": {
+                    "label": "Actionneur",
+                    "language": "FR",
+                    "name": "Actionneur",
+                    "scope": "local",
+                    "uuid": "5581f4e4-75ea-4fe0-ac43-a4d8311ab6bf",
+                    "version": 1
+                }
+            },
+            {
+                "asset": {
+                    "amvs": [
+                        {
+                            "asset": "fcea8308-cdd4-4207-a324-ed3f2c6800ff",
+                            "threat": "b402d5af-4576-11e9-9173-0800277f0571",
+                            "uuid": "d1140297-6b68-4ccf-9716-665c0b3d4306",
+                            "vulnerability": "69fc0555-4591-11e9-9173-0800277f0571"
+                        }
+                    ],
+                    "asset": {
+                        "code": "OV_IOT_DEVICE",
+                        "description": "Partie physique de l'objet connect\u00e9",
+                        "label": "IoT - Partie physique de l'objet connect\u00e9",
+                        "language": "FR",
+                        "type": "Secondary",
+                        "uuid": "fcea8308-cdd4-4207-a324-ed3f2c6800ff",
+                        "version": 1
+                    },
+                    "measures": [],
+                    "threats": [
+                        {
+                            "a": true,
+                            "c": true,
+                            "code": "MD36",
+                            "description": "Le mat\u00e9riel est accessible par des personnes \u00e9trang\u00e8res en interne ou en externe. Il est possible de le d\u00e9t\u00e9riorer ou de le voler.",
+                            "i": false,
+                            "label": "",
+                            "language": "FR",
+                            "theme": "Compromission des informations",
+                            "uuid": "b402d5af-4576-11e9-9173-0800277f0571"
+                        }
+                    ],
+                    "vuls": [
+                        {
+                            "code": "1183",
+                            "description": "Des personnes non autoris\u00e9es peuvent acc\u00e9der \u00e0 l'information sans barri\u00e8res physiques ?Acc\u00e8s facile ? Locaux publics ? Passage ou couloir \u00e0 proximit\u00e9 ?",
+                            "label": "L'acc\u00e8s est possible pour des personnes n'ayant aucun motif de service",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc0555-4591-11e9-9173-0800277f0571"
+                        }
+                    ]
+                },
+                "children": [],
+                "object": {
+                    "label": "Device",
+                    "language": "FR",
+                    "name": "Device",
+                    "scope": "local",
+                    "uuid": "59617857-43b1-4660-b571-3f75fa22a1ae",
+                    "version": 1
+                }
+            },
+            {
+                "asset": {
+                    "amvs": [
+                        {
+                            "asset": "d2023de2-44d1-11e9-a78c-0800277f0571",
+                            "threat": "b402d513-4576-11e9-9173-0800277f0571",
+                            "uuid": "7f9fb547-4f02-11e9-b3ea-0800277f0571",
+                            "vulnerability": "69fc04ed-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "asset": "d2023de2-44d1-11e9-a78c-0800277f0571",
+                            "threat": "b402d5ea-4576-11e9-9173-0800277f0571",
+                            "uuid": "7f9fb55e-4f02-11e9-b3ea-0800277f0571",
+                            "vulnerability": "69fc0627-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "asset": "d2023de2-44d1-11e9-a78c-0800277f0571",
+                            "threat": "b402d513-4576-11e9-9173-0800277f0571",
+                            "uuid": "7f9fb58d-4f02-11e9-b3ea-0800277f0571",
+                            "vulnerability": "69fc05b4-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "asset": "d2023de2-44d1-11e9-a78c-0800277f0571",
+                            "threat": "b402d5d5-4576-11e9-9173-0800277f0571",
+                            "uuid": "d2522441-1a7b-456f-8b4b-8f2d6b586632",
+                            "vulnerability": "69fc051f-4591-11e9-9173-0800277f0571"
+                        }
+                    ],
+                    "asset": {
+                        "code": "OV_IOT_OS",
+                        "description": "Syst\u00e8me d'exploitation ou middleware de l'objet connect\u00e9",
+                        "label": "IoT - Syst\u00e8me d'exploitation",
+                        "language": "FR",
+                        "type": "Secondary",
+                        "uuid": "d2023de2-44d1-11e9-a78c-0800277f0571",
+                        "version": 1
+                    },
+                    "measures": [],
+                    "threats": [
+                        {
+                            "a": true,
+                            "c": false,
+                            "code": "MA15",
+                            "description": "Erreur de conception, erreur d'installation ou n\u00e9gligence d'exploitation commise lors de modification provoquant une ex\u00e9cution non-conforme.",
+                            "i": true,
+                            "label": "Dysfonctionnement logiciel",
+                            "language": "FR",
+                            "theme": "D\u00e9faillances techniques",
+                            "uuid": "b402d513-4576-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "a": true,
+                            "c": true,
+                            "code": "MDA17",
+                            "description": "Personne poss\u00e9dant des droits privil\u00e9gi\u00e9s (administrateur de r\u00e9seaux, personnel informaticien...) et pouvant modifier les caract\u00e9ristiques d'exploitation des ressources.",
+                            "i": true,
+                            "label": "Abus de droits",
+                            "language": "FR",
+                            "theme": "Compromission des fonctions",
+                            "uuid": "b402d5ea-4576-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "a": true,
+                            "c": true,
+                            "code": "MDA13",
+                            "description": "Logiciel non d\u00e9sir\u00e9 executant des op\u00e9rations cherchant \u00e0 nuire \u00e0 l'organisme.",
+                            "i": true,
+                            "label": "Infection par un malware",
+                            "language": "FR",
+                            "theme": "Compromission des informations",
+                            "uuid": "b402d5d5-4576-11e9-9173-0800277f0571"
+                        }
+                    ],
+                    "vuls": [
+                        {
+                            "code": "1172",
+                            "description": "Y a-t-il des accords contractuels formels avec les tiers principaux ?Existe-t-il des r\u00e8gles d'intervention ? Nom de personnes ? D\u00e9lais ?",
+                            "label": "Pas d'accord de services avec les  tiers (internes ou externes)",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc04ed-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "code": "1224",
+                            "description": "Liaison maintenue en permanence\u00c9changes en clair Absence de compte-rendu",
+                            "label": "La t\u00e9l\u00e9maintenance n'est pas g\u00e9r\u00e9e correctement par le fournisseur",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc0627-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "code": "1213",
+                            "description": "La gestion des changements sur les logiciels ou sur le syst\u00e8me d'information est elle correcte ?Planification des changements ? Estimation des charges ? Tests avant mise en production ?",
+                            "label": "Pr\u00e9sences de lacunes dans la gestion des changements ou la maintenance des logiciels",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc05b4-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "code": "1178",
+                            "description": "Existe-t-il une proc\u00e9dure ? Formelle ?Quelle est la p\u00e9riodicit\u00e9 d'application ? Qui est le responsable ?Des tests sont-ils effectu\u00e9s ? Avant ? Apr\u00e8s ?",
+                            "label": "La gestion des mises \u00e0 jour (patch) comporte des lacunes",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc051f-4591-11e9-9173-0800277f0571"
+                        }
+                    ]
+                },
+                "children": [],
+                "object": {
+                    "label": "Syst\u00e8me d'exploitation",
+                    "language": "FR",
+                    "name": "Syst\u00e8me d'exploitation",
+                    "scope": "local",
+                    "uuid": "4b31e8dd-24d8-4780-aa62-d5f4fff53760",
+                    "version": 1
+                }
+            },
+            {
+                "asset": {
+                    "amvs": [
+                        {
+                            "asset": "7b8a1bca-0172-43e5-89e6-590c6a7d76af",
+                            "threat": "b402d5df-4576-11e9-9173-0800277f0571",
+                            "uuid": "02c8ec95-756a-447b-916b-312b29c2e43c",
+                            "vulnerability": "69fc0101-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "asset": "7b8a1bca-0172-43e5-89e6-590c6a7d76af",
+                            "threat": "b402d557-4576-11e9-9173-0800277f0571",
+                            "uuid": "4896c568-6eb2-4454-9d80-bad8f8106a0f",
+                            "vulnerability": "69fc0952-4591-11e9-9173-0800277f0571"
+                        }
+                    ],
+                    "asset": {
+                        "code": "OV_IOT_NETWORK_INTERFACE",
+                        "description": "IOT - Interface r\u00e9seau",
+                        "label": "IoT - Interface r\u00e9seau",
+                        "language": "FR",
+                        "type": "Secondary",
+                        "uuid": "7b8a1bca-0172-43e5-89e6-590c6a7d76af",
+                        "version": 1
+                    },
+                    "measures": [],
+                    "threats": [
+                        {
+                            "a": true,
+                            "c": false,
+                            "code": "MDA16",
+                            "description": "Personne ou ressource de type mat\u00e9riel, logiciel ou r\u00e9seau simulant un besoin de ressource intense en provoquant un parasitage intense et continu de la ressource.",
+                            "i": false,
+                            "label": "Saturation du syst\u00e8me informatique",
+                            "language": "FR",
+                            "theme": "D\u00e9faillances techniques",
+                            "uuid": "b402d5df-4576-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "a": false,
+                            "c": true,
+                            "code": "MD15",
+                            "description": "Personne \u00e9tant connect\u00e9e aux \u00e9quipements ou aux supports de communication ou plac\u00e9e dans le p\u00e9rim\u00e8tre de couverture d'\u00e9mission d'une communication.",
+                            "i": false,
+                            "label": "\u00c9coute passive",
+                            "language": "FR",
+                            "theme": "Compromission des fonctions",
+                            "uuid": "b402d557-4576-11e9-9173-0800277f0571"
+                        }
+                    ],
+                    "vuls": [
+                        {
+                            "code": "1070",
+                            "description": "",
+                            "label": "Mauvais dimensionnement des ressources (ex.: trop d'utilisateurs par rapport aux nombres possibles de connexions et \u00e0 la bande passante)",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc0101-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "code": "210",
+                            "description": "",
+                            "label": "Mat\u00e9riel disposant d'interface de communication \u00e9coutable (infra rouge, 802.11, Bluetooth...)",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc0952-4591-11e9-9173-0800277f0571"
+                        }
+                    ]
+                },
+                "children": [],
+                "object": {
+                    "label": "Interfaces de communication",
+                    "language": "FR",
+                    "name": "Interface de communication",
+                    "scope": "local",
+                    "uuid": "926e6d32-9bca-4675-b817-b572f5947072",
+                    "version": 1
+                }
+            },
+            {
+                "asset": {
+                    "amvs": [
+                        {
+                            "asset": "bc411cb6-d2fc-4e0c-8ed1-e5259e213e9b",
+                            "threat": "b402d5c9-4576-11e9-9173-0800277f0571",
+                            "uuid": "5cf11c67-0843-4dec-bb0e-c649d97a2bc4",
+                            "vulnerability": "69fc057e-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "asset": "bc411cb6-d2fc-4e0c-8ed1-e5259e213e9b",
+                            "threat": "b402d620-4576-11e9-9173-0800277f0571",
+                            "uuid": "a162b328-c313-4464-80ba-f1db359d7655",
+                            "vulnerability": "69fc0f0d-4591-11e9-9173-0800277f0571"
+                        }
+                    ],
+                    "asset": {
+                        "code": "OV_IOT_STORAGE_LOCAL",
+                        "description": "El\u00e9ments sauvegard\u00e9s en local sur l'objet connect\u00e9",
+                        "label": "IoT - Storage local",
+                        "language": "FR",
+                        "type": "Secondary",
+                        "uuid": "bc411cb6-d2fc-4e0c-8ed1-e5259e213e9b",
+                        "version": 1
+                    },
+                    "measures": [],
+                    "threats": [
+                        {
+                            "a": false,
+                            "c": true,
+                            "code": "MDA12",
+                            "description": "R\u00e9cup\u00e9ration de supports \u00e9lectroniques (disques durs, disquettes, cartouches de sauvegarde, cl\u00e9s USB, disquettes ZIP, disques durs amovibles...) ou papier (listing, \u00e9ditions incompl\u00e8tes, messages...) destin\u00e9s au recyclage et contenant des informations r\u00e9c",
+                            "i": false,
+                            "label": "R\u00e9cup\u00e9ration de supports recycl\u00e9s ou mis au rebut",
+                            "language": "FR",
+                            "theme": "Compromission des informations",
+                            "uuid": "b402d5c9-4576-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "a": true,
+                            "c": false,
+                            "code": "MDA29",
+                            "description": "Ev\u00e8nement provoquant la destruction d\u2019un mat\u00e9riel ou d'un support.",
+                            "i": false,
+                            "label": "Destruction de mat\u00e9riel ou de supports",
+                            "language": "FR",
+                            "theme": "Sinistres physiques",
+                            "uuid": "b402d620-4576-11e9-9173-0800277f0571"
+                        }
+                    ],
+                    "vuls": [
+                        {
+                            "code": "1191",
+                            "description": "Existe-t-il une proc\u00e9dure formelle ?Est-elle respect\u00e9e ?La chaine de mise au rebut est-elle correcte ?",
+                            "label": "La mise au rebut n'est pas correctement assur\u00e9e",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc057e-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "code": "283",
+                            "description": "",
+                            "label": "Absence de sauvegarde des donn\u00e9es contenues sur les supports",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc0f0d-4591-11e9-9173-0800277f0571"
+                        }
+                    ]
+                },
+                "children": [],
+                "object": {
+                    "label": "Storage local",
+                    "language": "FR",
+                    "name": "Storage local",
+                    "scope": "local",
+                    "uuid": "7da319ff-851c-414f-bb76-50cfc48254b5",
+                    "version": 1
+                }
+            },
+            {
+                "asset": {
+                    "amvs": [
+                        {
+                            "asset": "d2023dd3-44d1-11e9-a78c-0800277f0571",
+                            "threat": "b402d4e0-4576-11e9-9173-0800277f0571",
+                            "uuid": "1631becd-9756-46f3-b23d-a3d93bac3fab",
+                            "vulnerability": "69fc0515-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "asset": "d2023dd3-44d1-11e9-a78c-0800277f0571",
+                            "threat": "b402d600-4576-11e9-9173-0800277f0571",
+                            "uuid": "7f9fb735-4f02-11e9-b3ea-0800277f0571",
+                            "vulnerability": "69fc04e2-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "asset": "d2023dd3-44d1-11e9-a78c-0800277f0571",
+                            "threat": "b402d530-4576-11e9-9173-0800277f0571",
+                            "uuid": "7f9fb74c-4f02-11e9-b3ea-0800277f0571",
+                            "vulnerability": "69fc04c4-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "asset": "d2023dd3-44d1-11e9-a78c-0800277f0571",
+                            "threat": "b402d530-4576-11e9-9173-0800277f0571",
+                            "uuid": "7f9fb763-4f02-11e9-b3ea-0800277f0571",
+                            "vulnerability": "69fc04d1-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "asset": "d2023dd3-44d1-11e9-a78c-0800277f0571",
+                            "threat": "b402d600-4576-11e9-9173-0800277f0571",
+                            "uuid": "7f9fb77a-4f02-11e9-b3ea-0800277f0571",
+                            "vulnerability": "69fc061d-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "asset": "d2023dd3-44d1-11e9-a78c-0800277f0571",
+                            "threat": "b402d58f-4576-11e9-9173-0800277f0571",
+                            "uuid": "7f9fb7a9-4f02-11e9-b3ea-0800277f0571",
+                            "vulnerability": "69fc1924-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "asset": "d2023dd3-44d1-11e9-a78c-0800277f0571",
+                            "threat": "b402d557-4576-11e9-9173-0800277f0571",
+                            "uuid": "7f9fb7ca-4f02-11e9-b3ea-0800277f0571",
+                            "vulnerability": "69fc0560-4591-11e9-9173-0800277f0571"
+                        }
+                    ],
+                    "asset": {
+                        "code": "OV_IOT_APP",
+                        "description": "Application du device IOT",
+                        "label": "IoT - Application utilisateur",
+                        "language": "FR",
+                        "type": "Secondary",
+                        "uuid": "d2023dd3-44d1-11e9-a78c-0800277f0571",
+                        "version": 1
+                    },
+                    "measures": [],
+                    "threats": [
+                        {
+                            "a": true,
+                            "c": true,
+                            "code": "MA11",
+                            "description": "Personne commettant une erreur de manipulation, de saisie, d'utilisation de mat\u00e9riels ou logiciels.",
+                            "i": true,
+                            "label": "Erreur d'utilisation",
+                            "language": "FR",
+                            "theme": "Compromission des fonctions",
+                            "uuid": "b402d4e0-4576-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "a": false,
+                            "c": true,
+                            "code": "MDA20",
+                            "description": "Personne qui, volontairement ou par n\u00e9gligence, diffuse de l'information .",
+                            "i": false,
+                            "label": "Divulgation d'information",
+                            "language": "FR",
+                            "theme": "Compromission des informations",
+                            "uuid": "b402d600-4576-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "a": true,
+                            "c": true,
+                            "code": "MD14",
+                            "description": "Personne se faisant passer pour une autre de mani\u00e8re \u00e0 utiliser ces privil\u00e8ges d'acc\u00e8s au syst\u00e8me d'information, d\u00e9sinformer le destinataire, r\u00e9aliser une fraude\u2026",
+                            "i": true,
+                            "label": "Usurpation de droits",
+                            "language": "FR",
+                            "theme": "Compromission des fonctions",
+                            "uuid": "b402d530-4576-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "a": false,
+                            "c": false,
+                            "code": "MD24",
+                            "description": "Une personne ou une entit\u00e9 renie sa participation \u00e0 un \u00e9change avec un tiers ou \u00e0 la r\u00e9alisation d'une op\u00e9ration.",
+                            "i": true,
+                            "label": "Reniement d'actions",
+                            "language": "FR",
+                            "theme": "Compromission des fonctions",
+                            "uuid": "b402d58f-4576-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "a": false,
+                            "c": true,
+                            "code": "MD15",
+                            "description": "Personne \u00e9tant connect\u00e9e aux \u00e9quipements ou aux supports de communication ou plac\u00e9e dans le p\u00e9rim\u00e8tre de couverture d'\u00e9mission d'une communication.",
+                            "i": false,
+                            "label": "\u00c9coute passive",
+                            "language": "FR",
+                            "theme": "Compromission des fonctions",
+                            "uuid": "b402d557-4576-11e9-9173-0800277f0571"
+                        }
+                    ],
+                    "vuls": [
+                        {
+                            "code": "1177",
+                            "description": "L'ergonomie du logiciel pose-t-elle des probl\u00e8mes ?Est-il complexe \u00e0 comprendre ou \u00e0 utiliser ?Le temps de formation ou d'adaptation est-il long ? Existe-t-il des cas d'erreurs connus ?",
+                            "label": "Outils ou programmes non adapt\u00e9s \u00e0 l'utilisation ou non ergonomiques",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc0515-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "code": "1168",
+                            "description": "Est-ce que toutes les autorisations sont donn\u00e9es en respectant ce principe ?",
+                            "label": "Le principe de besoin d'en conna\u00eetre n'est pas respect\u00e9",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc04e2-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "code": "1166",
+                            "description": "Y a-t-il une proc\u00e9dure formelle ?Qui autorise les acc\u00e8s ?Le principe de 4 yeux est-il respect\u00e9 ?",
+                            "label": "La gestion des autorisations comporte des failles",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc04c4-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "code": "1167",
+                            "description": "Y a-t-il une politique de mots de passe ?Bonnes pratiques (longueur, complexit\u00e9, changement ...) ?Y a-t-il un compte par personne ?Y a-t-il des comptes partag\u00e9s ?",
+                            "label": "L'authentification des utilisateurs n'est pas assur\u00e9e",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc04d1-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "code": "1221",
+                            "description": "Y a-t-il possibilit\u00e9 d'exporter les donn\u00e9es ?\u00c9galement en format structur\u00e9 (XLS, CSV, XML, etc.) ?",
+                            "label": "Les droits de l'utilisateur permettent l\u2019export de l'information",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc061d-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "code": "50",
+                            "description": "Y a-t-il des logs ?Sont-ils suffisants au regard des contr\u00f4les \u00e0 effectuer ?",
+                            "label": "Absence de conservation des traces des activit\u00e9s",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc1924-4591-11e9-9173-0800277f0571"
+                        },
+                        {
+                            "code": "1184",
+                            "description": "Le moyen de communication est-il chiffr\u00e9 ?Le moyen de communication est-il accessible par des tiers ?",
+                            "label": "Utilisation d'un moyen de communication non s\u00e9curis\u00e9",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc0560-4591-11e9-9173-0800277f0571"
+                        }
+                    ]
+                },
+                "children": [],
+                "object": {
+                    "label": "Application",
+                    "language": "FR",
+                    "name": "Application",
+                    "scope": "local",
+                    "uuid": "cbfb813a-3e9c-415c-9ece-9c2bd7c781b7",
+                    "version": 1
+                }
+            },
+            {
+                "asset": {
+                    "amvs": [
+                        {
+                            "asset": "fa281f62-931c-47dd-82b6-976e543a2168",
+                            "threat": "b402d5f5-4576-11e9-9173-0800277f0571",
+                            "uuid": "15715227-f575-462b-b467-236532cddbb6",
+                            "vulnerability": "69fc01e7-4591-11e9-9173-0800277f0571"
+                        }
+                    ],
+                    "asset": {
+                        "code": "OV_IOT_SENSORS",
+                        "description": "",
+                        "label": "IoT - Capteur",
+                        "language": "FR",
+                        "type": "Secondary",
+                        "uuid": "fa281f62-931c-47dd-82b6-976e543a2168",
+                        "version": 1
+                    },
+                    "measures": [],
+                    "threats": [
+                        {
+                            "a": false,
+                            "c": false,
+                            "code": "MDA18",
+                            "description": "R\u00e9ception et exploitation dans le syst\u00e8me d'information de l'organisme de donn\u00e9es erron\u00e9es ou de mat\u00e9riels non adapt\u00e9s provenant de sources ext\u00e9rieures.",
+                            "i": true,
+                            "label": "Information sans garantie de l'origine",
+                            "language": "FR",
+                            "theme": "Compromission des informations",
+                            "uuid": "b402d5f5-4576-11e9-9173-0800277f0571"
+                        }
+                    ],
+                    "vuls": [
+                        {
+                            "code": "1094",
+                            "description": "",
+                            "label": "Le syst\u00e8me permet l'\u00e9mission et la r\u00e9ception d'information sans authentification des \u00e9metteurs ni des destinataires",
+                            "language": "FR",
+                            "mode": 0,
+                            "uuid": "69fc01e7-4591-11e9-9173-0800277f0571"
+                        }
+                    ]
+                },
+                "children": [],
+                "object": {
+                    "label": "Capteur",
+                    "language": "FR",
+                    "name": "Capteur",
+                    "scope": "local",
+                    "uuid": "e1473c38-42fc-4124-8b66-595ed18c1db2",
+                    "version": 1
+                }
+            }
+        ],
+        "object": {
+            "label": "Objet connect\u00e9",
+            "language": "FR",
+            "name": "Objet connect\u00e9",
+            "scope": "local",
+            "uuid": "0ceec4ea-73c0-4055-bcf1-819346ffdd0b",
+            "version": 1
+        }
+    }
+}
