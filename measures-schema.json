@@ -3,7 +3,7 @@
     "$schema": "http://json-schema.org/schema#",
     "additionalProperties": false,
     "definitions": {
-        "referential/label": {
+        "standard": {
             "$ref": "https://objects.monarc.lu/schema/def/308deb4c-0249-43ed-9f6f-f5c60b630d8f"
         }
     },
@@ -21,21 +21,22 @@
             "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
             "type": "string"
         },
-        "referential_uuid": {
+        "referential": {
             "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
-            "type": "string"
+            "type": "string",
+            "description": "UUID of the referential."
         },
         "referential_label": {
-            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
-            "type": "string"
-        },
+            "type": "string",
+            "description": "Label of the referential."
+        }
     },
     "required": [
         "uuid",
         "label",
         "category",
         "code",
-        "referential_uuid",
+        "referential",
         "referential_label"
     ],
     "title": "Validator for measure used in MONARC",

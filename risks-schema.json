@@ -1,8 +1,7 @@
 {
+    "$id": "https://objects.monarc.lu/schema/def/46a32545-94c5-4bcc-88bf-e65973556f7e",
     "$schema": "http://json-schema.org/schema#",
-    "title": "Validator for risks used in MONARC",
     "additionalProperties": false,
-    "id": "",
     "properties": {
         "asset": {
             "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
@@ -29,6 +28,15 @@
         "vulnerability": {
             "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
             "type": "string"
+        },
+        "measures": {
+          "items": {
+            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+            "type": "string",
+            "description": "UUID of a measure.",
+            "$comment": "UUID of a measure."
+          },
+          "type": "array"
         }
     },
     "required": [
@@ -37,5 +45,6 @@
         "threat",
         "vulnerability"
     ],
+    "title": "Validator for risks used in MONARC",
     "type": "object"
 }

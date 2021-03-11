@@ -41,7 +41,9 @@
         "values": {
           "items": {
             "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
-            "type": "string"
+            "type": "string",
+            "description": "UUID of a measure.",
+            "$comment": "UUID of a measure."
           },
           "type": "array"
         },
