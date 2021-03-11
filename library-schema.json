@@ -1,0 +1,179 @@
+{
+    "$id": "https://objects.monarc.lu/schema/def/590a6cc3-4bf9-4fe4-880f-c50530a990b9",
+    "$schema": "http://json-schema.org/schema#",
+    "additionalProperties": false,
+    "definitions": {
+        "amvs": {
+            "$ref": "https://objects.monarc.lu/schema/def/46a32545-94c5-4bcc-88bf-e65973556f7e"
+        },
+        "asset": {
+            "$ref": "https://objects.monarc.lu/schema/def/76315a94-50a4-4358-a844-f5eae7e7e141"
+        },
+        "measure": {
+            "$ref": "https://objects.monarc.lu/schema/def/3777ff96-2d37-4ad2-8789-7aa3417b6312"
+        },
+        "object": {
+            "properties": {
+                "asset": {
+                    "properties": {
+                        "amvs": {
+                            "items": {
+                                "$ref": "#/definitions/amvs",
+                                "type": "object",
+                                "uniqueItems": true
+                            },
+                            "type": "array"
+                        },
+                        "asset": {
+                            "$ref": "#/definitions/asset",
+                            "type": "object"
+                        },
+                        "measures": {
+                            "items": {
+                                "$ref": "#/definitions/measure",
+                                "type": "object"
+                            },
+                            "type": "array",
+                            "uniqueItems": true
+                        },
+                        "threats": {
+                            "items": {
+                                "$ref": "#/definitions/threats",
+                                "type": "object",
+                                "uniqueItems": true
+                            },
+                            "type": "array"
+                        },
+                        "vuls": {
+                            "items": {
+                                "$ref": "#/definitions/vuls",
+                                "type": "object",
+                                "uniqueItems": true
+                            },
+                            "type": "array"
+                        }
+                    },
+                    "type": "object"
+                },
+                "children": {
+                    "default": [],
+                    "items": {
+                        "$ref": "#/definitions/object"
+                    },
+                    "type": "array"
+                },
+                "object": {
+                    "properties": {
+                        "label": {
+                            "minLength": 1,
+                            "type": "string"
+                        },
+                        "language": {
+                            "default": "EN",
+                            "oneOf": [
+                                {
+                                    "enum": [
+                                        "EN",
+                                        "FR",
+                                        "DE",
+                                        "NL"
+                                    ],
+                                    "pattern": "^[A-Z]{2}$",
+                                    "type": "string"
+                                }
+                            ],
+                            "type": "string"
+                        },
+                        "name": {
+                            "minLength": 1,
+                            "type": "string"
+                        },
+                        "scope": {
+                            "enum": [
+                                "local",
+                                "global"
+                            ],
+                            "type": "string"
+                        },
+                        "uuid": {
+                            "pattern": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",
+                            "type": "string"
+                        },
+                        "version": {
+                            "type": "integer"
+                        }
+                    },
+                    "required": [
+                        "name",
+                        "label",
+                        "language",
+                        "uuid",
+                        "scope",
+                        "version"
+                    ],
+                    "type": "object"
+                },
+                "rolfRisks": {
+                    "default": [],
+                    "items": {
+                        "$ref": "#/definitions/rolfRisks",
+                        "type": "object",
+                        "uniqueItems": true
+                    },
+                    "type": "array"
+                },
+                "rolfTags": {
+                    "default": [],
+                    "items": {
+                        "$ref": "#/definitions/rolfTags",
+                        "type": "object"
+                    },
+                    "maxItems": 1,
+                    "type": "array"
+                }
+            },
+            "required": [
+                "object",
+                "asset",
+                "rolfRisks",
+                "rolfTags",
+                "children"
+            ],
+            "type": "object"
+        },
+        "rolfRisks": {
+            "$ref": "https://objects.monarc.lu/schema/def/ca4464d6-27e0-4d33-a6b0-37c1c9620275"
+        },
+        "rolfTags": {
+            "properties": {
+                "code": {
+                    "type": "string"
+                },
+                "label": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "code",
+                "label"
+            ],
+            "type": "object"
+        },
+        "threats": {
+            "$ref": "https://objects.monarc.lu/schema/def/9b9e44b1-a943-4f95-b0c3-df1015063a10"
+        },
+        "vuls": {
+            "$ref": "https://objects.monarc.lu/schema/def/023efe2b-5f7f-43c0-b858-97877b5a1f75"
+        }
+    },
+    "properties": {
+        "object": {
+            "$ref": "#/definitions/object"
+        }
+    },
+    "required": [
+        "object"
+    ],
+    "title": "Validator for objects used in MONARC",
+    "type": "object"
+}
