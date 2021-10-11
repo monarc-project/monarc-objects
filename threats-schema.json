@@ -1,7 +1,7 @@
 {
     "$id": "https://objects.monarc.lu/schema/def/9b9e44b1-a943-4f95-b0c3-df1015063a10",
     "title": "Validator for threats used in MONARC",
-    "$schema": "http://json-schema.org/schema#",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "additionalProperties": false,
     "properties": {
         "a": {

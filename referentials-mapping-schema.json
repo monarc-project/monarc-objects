@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/schema#",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://objects.monarc.lu/schema/def/24d133a5-fab5-4be6-b455-55068cee7a28",
     "title": "Mappings between measures of two security referentials.",
     "properties": {

@@ -1,7 +1,7 @@
 {
     "$id": "https://objects.monarc.lu/schema/def/023efe2b-5f7f-43c0-b858-97877b5a1f75",
     "title": "Validator for vulnerabilities used in MONARC",
-    "$schema": "http://json-schema.org/schema#",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "additionalProperties": false,
     "properties": {
         "authors": {

@@ -1,7 +1,7 @@
 {
     "$id": "https://objects.monarc.lu/schema/def/76315a94-50a4-4358-a844-f5eae7e7e141",
     "title": "Validator for assets used in MONARC",
-    "$schema": "http://json-schema.org/schema#",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "additionalProperties": false,
     "properties": {
         "authors": {

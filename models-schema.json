@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/schema#",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://objects.monarc.lu/schema/def/83bd1a3f-d36b-4225-aa96-7da07a8b7b38",
     "title": "Validator for models (anr) used in MONARC",
     "additionalProperties": false,

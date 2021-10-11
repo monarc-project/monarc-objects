@@ -1,6 +1,6 @@
 {
     "$id": "https://objects.monarc.lu/schema/def/3777ff96-2d37-4ad2-8789-7aa3417b6312",
-    "$schema": "http://json-schema.org/schema#",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "additionalProperties": false,
     "definitions": {
         "standard": {

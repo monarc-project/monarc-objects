@@ -1,5 +1,5 @@
 {
-    "$schema": "http://json-schema.org/schema#",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://objects.monarc.lu/schema/def/308deb4c-0249-43ed-9f6f-f5c60b630d8f",
     "title": "Validator for referentials used in MONARC",
     "additionalProperties": false,
